@@ -1,10 +1,10 @@
 {
   "name": "meow",
   "displayName": "Meow",
-  "description": "meow in the darkness.",
+  "description": "One of the best dark theme with fresh and clean user interface, code with no distraction. Meow in the darkness. ",
   "publisher": "irfanshadikrishad",
   "icon": "images/meow.png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/irfanshadikrishad/meow"
@@ -14,7 +14,9 @@
     "meow theme",
     "meow dark theme",
     "meow irfanshadikrishad",
-    "irfanshadikrishad"
+    "irfanshadikrishad",
+    "meow dark",
+    "dark theme"
   ],
   "engines": {
     "vscode": "^1.84.0"
