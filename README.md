@@ -1,6 +1,6 @@
 # Meow
 
-[![version](https://vsmarketplacebadges.dev/version-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)[![installs](https://vsmarketplacebadges.dev/installs-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)[![rating](https://vsmarketplacebadges.dev/rating-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)
+[![version](https://vsmarketplacebadges.dev/version-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)&nbsp;[![installs](https://vsmarketplacebadges.dev/installs-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)&nbsp;[![rating](https://vsmarketplacebadges.dev/rating-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)
 
 Fresh & Clean Visual Studio Code dark theme. Code without distraction.
 
