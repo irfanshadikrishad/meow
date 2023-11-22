@@ -1,0 +1,61 @@
+{
+  "level0": {
+    "level1": "value1",
+    "level1a": "value1",
+    "level1b": "value1",
+    "level1c": "value1",
+    "level1d": "value1",
+    "level1e": {
+      "level2": "value2",
+      "level2a": "value2",
+      "level2b": "value2",
+      "level2c": "value2",
+      "level2d": "value2",
+      "level2e": {
+        "level3": "value3",
+        "level3a": "value3",
+        "level3b": "value3",
+        "level3c": "value3",
+        "level3d": "value3",
+        "level3e": {
+          "level4": "value4",
+          "level4a": "value4",
+          "level4b": "value4",
+          "level4c": "value4",
+          "level4d": "value4",
+          "level4e": {
+            "level5": "value5",
+            "level5a": "value5",
+            "level5b": "value5",
+            "level5c": "value5",
+            "level5d": "value5",
+            "level5e": {
+              "level6": "value6",
+              "level6a": "value6",
+              "level6b": "value6",
+              "level6c": "value6",
+              "level6d": "value6",
+              "level6e": {
+                "level7": "value7",
+                "level7a": "value7",
+                "level7b": "value7",
+                "level7c": "value7",
+                "level7d": "value7",
+                "level7e": {
+                  "level8": "value8",
+                  "level8a": "value8",
+                  "level8b": "value8",
+                  "level8c": "value8",
+                  "level8d": "value8",
+                  "level8e": {
+                    "level9": "value9"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
