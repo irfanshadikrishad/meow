@@ -186,7 +186,8 @@ APPENDIX: How to apply the Apache License to your work.
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-Copyright [2023] [name of copyright owner]
+Copyright [2023] [irfanshadikrishad] ![screenshot](https://i.pinimg.com/564x/f0/a9/b5/f0a9b51743b80e1d9ec271530efab1b8.jpg)
+[link](https://i.pinimg.com/564x/f0/a9/b5f0a9b51743b80e1d9ec271530efab1b8.jpg)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

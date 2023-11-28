@@ -53,10 +53,15 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "punctuation.terminator.rule.css",
+        "meta.property-list.css"
+      ],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#3D405B"
+        "foreground": "#222831"
       }
     },
     {
@@ -274,7 +279,32 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#B7B56E",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Entity CSS",
+      "scope": ["entity.name.tag.css"],
+      "settings": {
+        "foreground": "#E2703A",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "css id",
+      "scope": ["entity.other.attribute-name.id.css"],
+      "settings": {
+        "foreground": "#86ABA1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "css color name",
+      "scope": ["support.constant.color.w3c-extended-color-name.css"],
+      "settings": {
+        "foreground": "#2BBAC5",
+        "fontStyle": "bold"
       }
     },
     {
@@ -603,10 +633,18 @@
       }
     },
     {
-      "name": "ignore",
+      "name": "ignore", // Example: .gitignore
       "scope": ["source.ignore"],
       "settings": {
-        "foreground": "#303030",
+        "foreground": "#2b2b2b",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "comment on ignore",
+      "scope": ["comment.line.number-sign.ignore"],
+      "settings": {
+        "foreground": "#84C69B",
         "fontStyle": "bold"
       }
     },
@@ -773,14 +811,14 @@
         "text.html.php"
       ],
       "settings": {
-        "foreground": "#949494"
+        "foreground": "#30475E"
       }
     },
     {
       "name": "css",
       "scope": ["support.type.property-name.css"],
       "settings": {
-        "foreground": "#1B4965",
+        "foreground": "#0C7B93",
         "fontStyle": "bold"
       }
     },
@@ -827,10 +865,38 @@
       }
     },
     {
-      "name": "markdown",
-      "scope": ["meta.paragraph.markdown"],
+      "name": "markdown", // markdown text
+      "scope": [
+        "meta.paragraph.markdown",
+        "support.constant.property-value.css"
+      ],
       "settings": {
-        "foreground": "#738290",
+        "foreground": "#505050",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "css property value css",
+      "scope": [
+        "meta.property-value.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.px.css",
+        "constant.numeric.css",
+        "support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#8CBA51",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "css font",
+      "scope": [
+        "support.constant.font-name.css",
+        "support.constant.vendored.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#9DAB86",
         "fontStyle": "bold"
       }
     }

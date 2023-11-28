@@ -19,3 +19,12 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+.classname2:focus-visible {
+  outline: none;
+}
+input {
+  color: palegreen;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}

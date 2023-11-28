@@ -1,5 +1,5 @@
 -- select the unique ages from the Customers table
-SELECT DISTINCT age
+SELECT DISTINCT age;
 FROM Customers;
 SELECT first_name AS name
 FROM Customers;
