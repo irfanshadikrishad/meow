@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 1.2.1 | 29.11.2023
+
+- bug fix on css
+- better markdown
+- bug fix on readme
+- new logo
+
 ## 1.2.0 | 28.11.2023
 
 - better css support

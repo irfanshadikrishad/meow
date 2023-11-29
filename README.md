@@ -1,6 +1,6 @@
 # Meow
 
-[![version](https://vsmarketplacebadges.dev/version-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)&nbsp;[![installs](https://vsmarketplacebadges.dev/installs-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)&nbsp;[![rating](https://vsmarketplacebadges.dev/rating-short/irfanshadikrishad.meow.png)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)
+[![Visual Studio Marketplace Version (including pre-releases)](https://img.shields.io/visual-studio-marketplace/v/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=00704A)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)&nbsp;[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=00704A)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)&nbsp;[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=00704A)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)&nbsp;[![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=00704A)](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow)
 
 Fresh & Clean Visual Studio Code dark theme. Code without distraction.
 
@@ -29,4 +29,4 @@ for better experience [download](https://www.jetbrains.com/lp/mono/) and install
 
 Copyright © 2023-present [Meow](https://github.com/irfanshadikrishad/meow)
 
-![licence](https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8)
+![GitHub License](https://img.shields.io/github/license/irfanshadikrishad/meow?style=for-the-badge&labelColor=1b1b1b&color=00704A)

@@ -12,6 +12,7 @@ body {
   font-size: 1rem;
   border: none;
   margin: 1px 1px;
+  padding: 2fr 1pt;
 }
 #id {
   max-width: fit-content;

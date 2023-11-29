@@ -882,7 +882,20 @@
         "keyword.other.unit.rem.css",
         "keyword.other.unit.px.css",
         "constant.numeric.css",
-        "support.constant.property-value.css"
+        "support.constant.property-value.css",
+        "keyword.other.unit.pc.css",
+        "keyword.other.unit.cm.css",
+        "keyword.other.unit.vh.css",
+        "keyword.other.unit.vw.css",
+        "keyword.other.unit.svw.css",
+        "keyword.other.unit.dvb.css",
+        "keyword.other.unit.mm.css",
+        "keyword.other.unit.percentage.css",
+        "keyword.other.unit.fr.css",
+        "keyword.other.unit.cap.css",
+        "keyword.other.unit.ch.css",
+        "keyword.other.unit.pt.css",
+        "keyword.other.unit.em.css"
       ],
       "settings": {
         "foreground": "#8CBA51",
@@ -897,6 +910,43 @@
       ],
       "settings": {
         "foreground": "#9DAB86",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "markdown textCodeBlock",
+      "scope": [
+        "punctuation.definition.markdown",
+        "markup.fenced_code.block.markdown",
+        "punctuation.definition.raw.markdown",
+        "markup.inline.raw.string.markdown"
+      ],
+      "settings": {
+        "foreground": "#2A6F97",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "markdown tag",
+      "scope": ["string.other.link.description.markdown"],
+      "settings": {
+        "foreground": "#A3B763",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "markdown uri",
+      "scope": ["markup.underline.link.image.markdown"],
+      "settings": {
+        "foreground": "#5F6F52",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "markdown uri",
+      "scope": ["markup.underline.link.markdown"],
+      "settings": {
+        "foreground": "#519872",
         "fontStyle": "bold"
       }
     }
