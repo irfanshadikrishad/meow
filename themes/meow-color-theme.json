@@ -129,7 +129,9 @@
         "meta.function-call",
         "variable.function",
         "support.function",
-        "keyword.other.special-method"
+        "keyword.other.special-method",
+        "entity.name.command.shell",
+        "entity.name.function.shell"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -184,7 +186,6 @@
     {
       "name": "Class, Support",
       "scope": [
-        "entity.name",
         "support.type",
         "support.class",
         "support.other.namespace.use.php",
@@ -459,16 +460,6 @@
       }
     },
     {
-      "name": "Markdown - Plain",
-      "scope": [
-        "text.html.markdown",
-        "punctuation.definition.list_item.markdown"
-      ],
-      "settings": {
-        "foreground": "#EEFFFF"
-      }
-    },
-    {
       "name": "Markdown - Markup Raw Inline",
       "scope": ["text.html.markdown markup.inline.raw.markdown"],
       "settings": {
@@ -482,34 +473,6 @@
       ],
       "settings": {
         "foreground": "#65737E"
-      }
-    },
-    {
-      "name": "Markdown - Heading",
-      "scope": [
-        "markdown.heading",
-        "markup.heading | markup.heading entity.name",
-        "entity.name.type.interface.ts",
-        "markup.heading.markdown punctuation.definition.heading.markdown"
-      ],
-      "settings": {
-        "foreground": "#66DE93"
-      }
-    },
-    {
-      "name": "Markup - Italic",
-      "scope": ["markup.italic"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#f07178"
-      }
-    },
-    {
-      "name": "Markup - Bold",
-      "scope": ["markup.bold", "markup.bold string"],
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#f07178"
       }
     },
     {
@@ -547,13 +510,6 @@
       "scope": ["markup.quote"],
       "settings": {
         "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Markdown - Link",
-      "scope": ["string.other.link.title.markdown"],
-      "settings": {
-        "foreground": "#82AAFF"
       }
     },
     {
@@ -641,17 +597,8 @@
       }
     },
     {
-      "name": "comment on ignore",
-      "scope": ["comment.line.number-sign.ignore"],
-      "settings": {
-        "foreground": "#84C69B",
-        "fontStyle": "bold"
-      }
-    },
-    {
       "name": "source",
       "scope": [
-        "source.python",
         "source.perl",
         "source.c",
         "source.swift",
@@ -673,7 +620,8 @@
       "scope": [
         "storage.modifier.import.java",
         "keyword.other.sql",
-        "keyword.other.declaration-specifier.swift"
+        "keyword.other.declaration-specifier.swift",
+        "entity.name.namespace.cpp"
       ],
       "settings": {
         "foreground": "#76BA99",
@@ -682,7 +630,12 @@
     },
     {
       "name": "punctuation",
-      "scope": ["punctuation.terminator.statement.js", "meta.tag", "keyword"],
+      "scope": [
+        "punctuation.terminator.statement.js",
+        "meta.tag",
+        "keyword",
+        "punctuation.terminator.case-clause.shell"
+      ],
       "settings": {
         "foreground": "#3d405b",
         "fontStyle": "bold"
@@ -713,8 +666,7 @@
         "keyword.control.import.include.php",
         "support.function.json.php",
         "support.function.file.php",
-        "keyword.function.go",
-        "string.other.link.title.markdown"
+        "keyword.function.go"
       ],
       "settings": {
         "foreground": "#2A9D8F",
@@ -793,7 +745,6 @@
       "name": "quote",
       "scope": [
         "string.quoted.double.json",
-        "string.quoted.other.lt-gt.include.cpp",
         "string.quoted.double.php",
         "string.quoted.single.php",
         "support.type.primitive.ts"
@@ -811,7 +762,8 @@
         "text.html.php"
       ],
       "settings": {
-        "foreground": "#30475E"
+        "foreground": "#505050",
+        "fontStyle": "bold"
       }
     },
     {
@@ -854,28 +806,6 @@
       }
     },
     {
-      "name": "markdown",
-      "scope": [
-        "markup.raw.block.markdown",
-        "punctuation.definition.list.begin.markdown"
-      ],
-      "settings": {
-        "foreground": "#00BBF9",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "markdown", // markdown text
-      "scope": [
-        "meta.paragraph.markdown",
-        "support.constant.property-value.css"
-      ],
-      "settings": {
-        "foreground": "#505050",
-        "fontStyle": "bold"
-      }
-    },
-    {
       "name": "css property value css",
       "scope": [
         "meta.property-value.css",
@@ -913,6 +843,47 @@
         "fontStyle": "bold"
       }
     },
+    // python modified
+    {
+      "name": "python import",
+      "scope": ["keyword.control.import.python"],
+      "settings": {
+        "foreground": "#1190da",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "python source",
+      "scope": ["constant.numeric.dec.python", "source.python"],
+      "settings": {
+        "foreground": "#29ADB2",
+        "fontStyle": "bold"
+      }
+    },
+    // markdown modified
+    {
+      "name": "markdown",
+      "scope": [
+        "markup.raw.block.markdown",
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#00BBF9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "markdown", // markdown text
+      "scope": [
+        "meta.paragraph.markdown",
+        "support.constant.property-value.css",
+        "text.html.markdown"
+      ],
+      "settings": {
+        "foreground": "#505050",
+        "fontStyle": "bold"
+      }
+    },
     {
       "name": "markdown textCodeBlock",
       "scope": [
@@ -927,26 +898,148 @@
       }
     },
     {
-      "name": "markdown tag",
-      "scope": ["string.other.link.description.markdown"],
+      "name": "markdown bold",
+      "scope": ["markup.bold.markdown"],
       "settings": {
-        "foreground": "#A3B763",
+        "foreground": "#829460"
+      }
+    },
+    {
+      "name": "markdown italic",
+      "scope": ["markup.italic.markdown"],
+      "settings": {
+        "foreground": "#A27B5C"
+      }
+    },
+    {
+      "name": "markdown heading and comment on ignore",
+      "scope": [
+        "markup.heading",
+        "punctuation.definition.heading.markdown",
+        "comment.line.number-sign.ignore"
+      ],
+      "settings": {
+        "foreground": "#84C69B",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "markdown uri",
-      "scope": ["markup.underline.link.image.markdown"],
+      "name": "markdown link",
+      "scope": [
+        "markup.underline.link.markdown",
+        "string.other.link.title.markdown"
+      ],
       "settings": {
-        "foreground": "#5F6F52",
+        "foreground": "#10A19D",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "markdown uri",
-      "scope": ["markup.underline.link.markdown"],
+      "name": "markdown image",
+      "scope": [
+        "markup.underline.link.image.markdown",
+        "string.other.link.description.markdown"
+      ],
       "settings": {
-        "foreground": "#519872",
+        "foreground": "#4FA095",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "markdown quote",
+      "scope": ["punctuation.definition.quote.begin.markdown"],
+      "settings": {
+        "foreground": "#7B66FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "markdown escape",
+      "scope": [
+        "constant.character.escape.markdown",
+        "meta.separator.markdown"
+      ],
+      "settings": {
+        "foreground": "#566418",
+        "fontStyle": "bold"
+      }
+    }, // Bash Support (shellscript)
+    {
+      "name": "shellscript shebang",
+      "scope": [
+        "meta.shebang.shell",
+        "punctuation.definition.comment.shebang.shell"
+      ],
+      "settings": {
+        "foreground": "#940B92",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "shellscript unquoted string",
+      "scope": [
+        "string.unquoted.argument.shell",
+        "string.quoted.double.shell",
+        "string.quoted.single.shell",
+        "string.quoted.single.python",
+        "string.quoted.other.lt-gt.include.cpp"
+      ],
+      "settings": {
+        "foreground": "#9ADE7B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "shellscript function keyword",
+      "scope": ["storage.type.function.shell"],
+      "settings": {
+        "foreground": "#22A39F",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "shellscript assignment",
+      "scope": [
+        "variable.other.assignment.shell",
+        "variable.other.normal.shell"
+      ],
+      "settings": {
+        "foreground": "#CBB279",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "shellscript numeric",
+      "scope": ["constant.numeric.integer.shell"],
+      "settings": {
+        "foreground": "#7FC8A9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "shellscript arithmetic",
+      "scope": ["meta.arithmetic.shell"],
+      "settings": {
+        "foreground": "#F5A962",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "shellscript statement",
+      "scope": ["meta.scope.case-pattern.shell"],
+      "settings": {
+        "foreground": "#e1f4f3b7"
+      }
+    },
+    {
+      "name": "shellscript options",
+      "scope": [
+        "constant.other.option.dash.shell",
+        "constant.other.option",
+        "keyword.operator.logical.shell"
+      ],
+      "settings": {
+        "foreground": "#576F72",
         "fontStyle": "bold"
       }
     }

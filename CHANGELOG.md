@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.3.0 | 03.12.2023
+
+- better support in shell scripting
+- improvement on readme.md
+- improvement on html
+- improvement on markdown
+- improvement on python
+
 ## 1.2.1 | 29.11.2023
 
 - bug fix on css
