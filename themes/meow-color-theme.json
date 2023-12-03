@@ -1001,7 +1001,8 @@
       "name": "shellscript assignment",
       "scope": [
         "variable.other.assignment.shell",
-        "variable.other.normal.shell"
+        "variable.other.normal.shell",
+        "punctuation.definition.variable.shell"
       ],
       "settings": {
         "foreground": "#CBB279",
@@ -1010,7 +1011,7 @@
     },
     {
       "name": "shellscript numeric",
-      "scope": ["constant.numeric.integer.shell"],
+      "scope": ["constant.numeric.integer.shell", "meta.parameter-expansion"],
       "settings": {
         "foreground": "#7FC8A9",
         "fontStyle": "bold"

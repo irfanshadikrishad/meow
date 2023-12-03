@@ -2,7 +2,7 @@
   <img src="https://i.ibb.co/cwL0BYq/meow.png" width="125" />
   <h4 align=center>Meow</h4>
   <div align="center">
-      <img src="https://img.shields.io/visual-studio-marketplace/v/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=00704A" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/i/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=00704A" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/r/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=00704A" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/last-updated/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=00704A" />
+      <img src="https://img.shields.io/visual-studio-marketplace/v/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/i/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/r/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/last-updated/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />
   </div>
 </p>
 
@@ -16,10 +16,7 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 
 <details>
 <summary>Meow</summary>
-    <img src="https://i.ibb.co/Dtq8mQN/meow-preview-1.jpg"/>
-    <img src="https://i.ibb.co/wLsSfvX/meow-preview-2.jpg"/>
-    <img src="https://i.ibb.co/sybYyTj/meow-preview-3.jpg"/>
-    <img src="https://i.ibb.co/0sKXC4k/meow-bash.jpg"/>
+    <img src="assets/preview/1.PNG"/>
 </details>
 
 #### _Installation_
@@ -40,4 +37,4 @@ For better experience [download](https://www.jetbrains.com/lp/mono/) and install
 
 © 2023-Present [Meow](https://github.com/irfanshadikrishad/meow)
 
-![GitHub License](https://img.shields.io/github/license/irfanshadikrishad/meow?style=for-the-badge&labelColor=1b1b1b&color=00704A)
+![GitHub License](https://img.shields.io/github/license/irfanshadikrishad/meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C)

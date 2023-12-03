@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.3.1 | 04.12.2023
+
+- bug fix on readme.md
+- bug fix on shellscript
+
 ## 1.3.0 | 03.12.2023
 
 - better support in shell scripting
