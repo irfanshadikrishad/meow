@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.4.0 | 05.12.2023
+
+- meow pro (alpha version)
+
 ## 1.3.1 | 04.12.2023
 
 - bug fix on readme.md
