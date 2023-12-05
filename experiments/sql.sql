@@ -29,7 +29,7 @@ CREATE TABLE Products (
     FOREIGN KEY (customer_id)
     REFERENCES Customers(id)
   );
-
+  
 -- create index
 CREATE INDEX college_index
 ON Colleges(college_code);

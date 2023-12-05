@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.4.2 | 06.12.2023
+
+- [Meow β] bug fix on css, json & bash
+- [Meow β] jsx, dotenv, gitattributes, c, cpp,
+  go, java, php, r, rust, sql, typescript colorized
+
 ## 1.4.1 | 05.12.2023
 
 - html colorized

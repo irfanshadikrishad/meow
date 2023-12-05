@@ -14,3 +14,5 @@ class UserAccount {
 }
 
 const user: User = new UserAccount("Murphy", 1);
+
+// typescript comment
