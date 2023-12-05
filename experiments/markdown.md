@@ -6,11 +6,9 @@
 
 #### heading level 4
 
-#### heading level 5
+##### heading level 5
 
-#### heading level 6
-
-#### heading level 7
+###### heading level 6
 
 A4C2A5 markdown paragraph
 "string" 'string'
@@ -89,7 +87,10 @@ See the section on [`code`](#code).
     <img src="https://i.ibb.co/0sKXC4k/meow-bash.jpg"/>
 </details>
 
-this
+Dorothy followed her through many of the beautiful rooms in her castle.
 
-    is it
+    Dorothy followed her through many of the beautiful rooms in her castle.
 
+Dorothy followed her through many of the beautiful rooms in her castle.
+
+    Dorothy followed her through many of the beautiful rooms in her castle.

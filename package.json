@@ -4,7 +4,7 @@
   "description": "Fresh and clean user interface, code with no distraction. Meow in the darkness.",
   "publisher": "irfanshadikrishad",
   "icon": "images/meow.png",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/irfanshadikrishad/meow"
@@ -35,9 +35,9 @@
         "path": "./themes/meow-color-theme.json"
       },
       {
-        "label": "Meow Pro",
+        "label": "Meow β",
         "uiTheme": "vs-dark",
-        "path": "./themes/meow-pro-color-theme.json"
+        "path": "./themes/meow-beta-color-theme.json"
       }
     ]
   }

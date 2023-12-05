@@ -4,6 +4,7 @@
 struct threeNum
 {
    int n1, n2, n3;
+   float g1;
 };
 
 int main()

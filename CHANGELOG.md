@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 1.4.1 | 05.12.2023
+
+- html colorized
+- css colorized
+- javascript colorized
+- json colorized
+- ignore colorized
+- markdown colorized
+- bash colorized
+- python colorized
+- c colorized
+- changed `Meow Pro` to `Meow β`
+
 ## 1.4.0 | 05.12.2023
 
 - meow pro (alpha version)
