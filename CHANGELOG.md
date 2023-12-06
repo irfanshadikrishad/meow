@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.4.4 | 06.12.2023
+
+- quick bug fix on readme.md
+
 ## 1.4.3 | 06.12.2023
 
 - [Meow β] readme modified & bug fix

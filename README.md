@@ -18,6 +18,7 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 <summary>Meow</summary>
     <img src="assets/preview/meow.PNG"/>
 </details>
+<details>
 <summary>Meow β</summary>
     <img src="assets/preview/meow-beta.PNG"/>
 </details>
