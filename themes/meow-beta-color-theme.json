@@ -641,21 +641,24 @@
     // DOTENV
     {
       "name": "DOTENV key",
-      "scope": "variable.key.dotenv",
+      "scope": ["variable.key.dotenv", "variable.other.env"],
       "settings": {
         "foreground": "#00B4D8"
       }
     },
     {
       "name": "DOTENV value",
-      "scope": "property.value.dotenv",
+      "scope": ["property.value.dotenv", "constant.numeric.env", "source.env"],
       "settings": {
         "foreground": "#68B984"
       }
     },
     {
       "name": "DOTENV assignment",
-      "scope": "keyword.operator.assignment.dotenv",
+      "scope": [
+        "keyword.operator.assignment.dotenv",
+        "keyword.operator.assignment.env"
+      ],
       "settings": {
         "foreground": "#444444"
       }

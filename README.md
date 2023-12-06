@@ -35,6 +35,7 @@ For better experience [download](https://www.jetbrains.com/lp/mono/) and install
 ```
 "editor.fontLigatures": true,
 "editor.fontFamily": "JetBrains Mono",
+"terminal.integrated.cursorBlinking": true,
 ```
 
 #### _Thanks for using Meow 🤍_
