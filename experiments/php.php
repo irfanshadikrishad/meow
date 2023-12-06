@@ -4,12 +4,9 @@ function familyName($fname, $year) {
 }
 
 familyName("Hege", "1975");
-familyName("Stale", "1978");
-familyName("Kai Jim", "1983");
 $cars = array("Volvo", "BMW", "Toyota");
-echo count($cars);
 
-echo(min(0, 150, 30, 20, -8, -200));  // returns -200
+echo count($cars);
 echo(max(0, 150, 30, 20, -8, -200));
 
 if ($t < "20") {
@@ -24,48 +21,11 @@ Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
 <input type="submit">
 </form>
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["name"])) {
-    $nameErr = "Name is required";
-  } else {
-    $name = test_input($_POST["name"]);
-  }
-
-  if (empty($_POST["email"])) {
-    $emailErr = "Email is required";
-  } else {
-    $email = test_input($_POST["email"]);
-  }
-
-  if (empty($_POST["website"])) {
-    $website = "";
-  } else {
-    $website = test_input($_POST["website"]);
-  }
-
-  if (empty($_POST["comment"])) {
-    $comment = "";
-  } else {
-    $comment = test_input($_POST["comment"]);
-  }
-
-  if (empty($_POST["gender"])) {
-    $genderErr = "Gender is required";
-  } else {
-    $gender = test_input($_POST["gender"]);
-  }
-}
 ?>
-<?php include 'vars.php'; ?>
-<?php require 'noFileExists.php'; ?>
 
 <?php 
-
 $age = array("Peter"=>35, "Ben"=>37, "Joe"=>43);
-
 echo json_encode($age);
-
 ?>
 
 <?php
@@ -101,5 +61,4 @@ if(isset($_POST["submit"])) {
   }
 }
 ?>
-
 

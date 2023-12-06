@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/cwL0BYq/meow.png" width="125" />
+  <img src="images/meow.png" width="125" />
   <h4 align=center>Meow</h4>
   <div align="center">
       <img src="https://img.shields.io/visual-studio-marketplace/v/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/i/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/r/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/last-updated/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />
@@ -16,13 +16,16 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 
 <details>
 <summary>Meow</summary>
-    <img src="assets/preview/1.PNG"/>
+    <img src="assets/preview/meow.PNG"/>
+</details>
+<summary>Meow β</summary>
+    <img src="assets/preview/meow-beta.PNG"/>
 </details>
 
 #### _Installation_
 
 1. Use command `code --install-extension irfanshadikrishad.meow` in the terminal, or
-2. Install directly from Extensions in Visual Studio Code Marketplace.
+2. Or install directly from Extensions in [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=irfanshadikrishad.meow).
 
 #### _Tips_
 

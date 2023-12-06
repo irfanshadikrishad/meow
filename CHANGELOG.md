@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.4.3 | 06.12.2023
+
+- [Meow β] readme modified & bug fix
+- [Meow β] php modified
+
 ## 1.4.2 | 06.12.2023
 
 - [Meow β] bug fix on css, json & bash

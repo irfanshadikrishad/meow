@@ -87,6 +87,14 @@ See the section on [`code`](#code).
     <img src="https://i.ibb.co/0sKXC4k/meow-bash.jpg"/>
 </details>
 
+<p align="center">
+  <img src="https://i.ibb.co/cwL0BYq/meow.png" width="125" />
+  <h4 align=center>Meow</h4>
+  <div align="center">
+      <img src="https://img.shields.io/visual-studio-marketplace/v/irfanshadikrishad.meow?style=for-the-badge&labelColor=131515&color=00A896" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/i/irfanshadikrishad.meow?style=for-the-badge&labelColor=131515&color=00A896" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/r/irfanshadikrishad.meow?style=for-the-badge&labelColor=131515&color=00A896" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/last-updated/irfanshadikrishad.meow?style=for-the-badge&labelColor=131515&color=00A896" />
+  </div>
+</p>
+
 Dorothy followed her through many of the beautiful rooms in her castle.
 
     Dorothy followed her through many of the beautiful rooms in her castle.
