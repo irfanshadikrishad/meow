@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.4.5 | 07.12.2023
+
+- operators visible in Meow
+- .env support
+- css keyword supports
+
 ## 1.4.4 | 06.12.2023
 
 - quick bug fix on readme.md

@@ -298,17 +298,28 @@
       "name": "CSS at-rule",
       "scope": [
         "keyword.control.at-rule.media.css",
-        "keyword.operator.logical.and.media.css"
+        "keyword.operator.logical.and.media.css",
+        "keyword.control.at-rule.keyframes.css"
       ],
       "settings": {
-        "foreground": "#c842fd"
+        "foreground": "#c842fda6"
       }
     },
     {
       "name": "CSS constant media",
-      "scope": "support.constant.media.css",
+      "scope": [
+        "support.constant.media.css",
+        "variable.parameter.keyframe-list.css"
+      ],
       "settings": {
-        "foreground": "#6096BA"
+        "foreground": "#17f1dfb9"
+      }
+    },
+    {
+      "name": "CSS keyframe offset",
+      "scope": "entity.other.keyframe-offset.css",
+      "settings": {
+        "foreground": "#ff9900bd"
       }
     },
     // JavaScript
@@ -414,7 +425,7 @@
         "keyword.operator.logical.js"
       ],
       "settings": {
-        "foreground": "#303030",
+        "foreground": "#7c7c7c",
         "fontStyle": "bold italic"
       }
     },
@@ -646,7 +657,7 @@
         "punctuation.separator.dictionary.key-value.json"
       ],
       "settings": {
-        "foreground": "#2b2b2b"
+        "foreground": "#696969"
       }
     },
     {
@@ -676,21 +687,24 @@
     // DOTENV
     {
       "name": "DOTENV key",
-      "scope": "variable.key.dotenv",
+      "scope": ["variable.key.dotenv", "variable.other.env"],
       "settings": {
         "foreground": "#00B4D8"
       }
     },
     {
       "name": "DOTENV value",
-      "scope": "property.value.dotenv",
+      "scope": ["property.value.dotenv", "constant.numeric.env", "source.env"],
       "settings": {
         "foreground": "#68B984"
       }
     },
     {
       "name": "DOTENV assignment",
-      "scope": "keyword.operator.assignment.dotenv",
+      "scope": [
+        "keyword.operator.assignment.dotenv",
+        "keyword.operator.assignment.env"
+      ],
       "settings": {
         "foreground": "#444444"
       }
@@ -908,7 +922,7 @@
         "keyword.operator.arithmetic.shell"
       ],
       "settings": {
-        "foreground": "#2c2c2c",
+        "foreground": "#BBB891",
         "fontStyle": "bold"
       }
     },
@@ -916,7 +930,7 @@
       "name": "SHELLSCRIPT expansion",
       "scope": "meta.parameter-expansion",
       "settings": {
-        "foreground": "#F2D388"
+        "foreground": "#bd9d54"
       }
     },
     {
@@ -929,7 +943,7 @@
         "meta.statement.shell"
       ],
       "settings": {
-        "foreground": "#49493C",
+        "foreground": "#BBB891",
         "fontStyle": "bold"
       }
     },
@@ -970,7 +984,7 @@
         "keyword.operator.comparison.python"
       ],
       "settings": {
-        "foreground": "#49493C",
+        "foreground": "#BBB891",
         "fontStyle": "bold"
       }
     },
@@ -1087,7 +1101,7 @@
       "name": "C constant",
       "scope": ["constant.language.c", "constant.numeric.decimal.c"],
       "settings": {
-        "foreground": "#576F72",
+        "foreground": "#01a7bd",
         "fontStyle": ""
       }
     },
@@ -1106,7 +1120,7 @@
         "keyword.operator.increment.c"
       ],
       "settings": {
-        "foreground": "#414141",
+        "foreground": "#BBB891",
         "fontStyle": "bold"
       }
     },
@@ -1213,7 +1227,7 @@
         "keyword.operator.bitwise.shift.cpp"
       ],
       "settings": {
-        "foreground": "#2e2e2e",
+        "foreground": "#BBB891",
         "fontStyle": "bold"
       }
     },
@@ -1704,7 +1718,7 @@
         "keyword.operator.assignment.rust"
       ],
       "settings": {
-        "foreground": "#444444",
+        "foreground": "#BBB891",
         "fontStyle": "bold"
       }
     },
@@ -1893,7 +1907,7 @@
         "meta.parameter-clause.swift"
       ],
       "settings": {
-        "foreground": "#444444",
+        "foreground": "#BBB891",
         "fontStyle": "bold"
       }
     },

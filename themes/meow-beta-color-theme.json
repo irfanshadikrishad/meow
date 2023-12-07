@@ -37,9 +37,10 @@
     "editorLineNumber.activeForeground": "#00A896",
     "editorCursor.background": "#00A896",
     "editorCursor.foreground": "#B6BBC4",
+    "editor.wordHighlightBackground": "#6969693b",
     "editor.selectionBackground": "#161B22",
-    "editor.findMatchBackground": "#161B22",
-    "editor.findMatchHighlightBackground": "#161B22",
+    "editor.findMatchBackground": "#1a9b0094",
+    "editor.findMatchHighlightBackground": "#009b0050",
     "editorBracketMatch.background": "#2B2C28",
     "editorBracketMatch.border": "#2B2C28",
     "editorBracketHighlight.foreground1": "#84A98C",
@@ -244,12 +245,23 @@
     },
     {
       "name": "css property",
-      "scope": [
-        "support.type.property-name.css",
-        "support.type.property-name.media.css"
-      ],
+      "scope": ["support.type.property-name.css"],
       "settings": {
-        "foreground": "#176B87"
+        "foreground": "#797D62"
+      }
+    },
+    {
+      "name": "CSS media properties",
+      "scope": "support.type.property-name.media.css",
+      "settings": {
+        "foreground": "#DF826C"
+      }
+    },
+    {
+      "name": "CSS media value",
+      "scope": "meta.at-rule.media.header.css",
+      "settings": {
+        "foreground": "#79AC78"
       }
     },
     {
@@ -270,18 +282,10 @@
       "name": "css value",
       "scope": [
         "support.constant.property-value.css",
-        "meta.property-value.css",
-        "meta.at-rule.media.header.css"
+        "meta.property-value.css"
       ],
       "settings": {
         "foreground": "#5C8374"
-      }
-    },
-    {
-      "name": "css wildcard",
-      "scope": "entity.name.tag.wildcard.css",
-      "settings": {
-        "foreground": "#7743DB"
       }
     },
     {
@@ -306,30 +310,58 @@
       "name": "CSS comment",
       "scope": "comment.block.css",
       "settings": {
-        "foreground": "#303030"
+        "foreground": "#303030",
+        "fontStyle": ""
       }
     },
     {
       "name": "CSS at-rule",
       "scope": [
         "keyword.control.at-rule.media.css",
-        "keyword.operator.logical.and.media.css"
+        "keyword.operator.logical.and.media.css",
+        "keyword.control.at-rule.keyframes.css",
+        "keyword.control.at-rule.css",
+        "keyword.control.at-rule.font-face.css",
+        "meta.at-rule.header.css",
+        "entity.name.tag.wildcard.css"
       ],
       "settings": {
-        "foreground": "#c842fd"
+        "foreground": "#DF826C"
       }
     },
     {
       "name": "CSS constant media",
-      "scope": "support.constant.media.css",
+      "scope": [
+        "support.constant.media.css",
+        "variable.parameter.keyframe-list.css",
+        "meta.at-rule.header.css"
+      ],
       "settings": {
-        "foreground": "#6096BA"
+        "foreground": "#D0F288"
+      }
+    },
+    {
+      "name": "CSS at-rule body",
+      "scope": "entity.other.keyframe-offset.css",
+      "settings": {
+        "foreground": "#776B5D"
+      }
+    },
+    {
+      "name": "CSS source",
+      "scope": "source.css",
+      "settings": {
+        "foreground": "#776B5D"
       }
     },
     // JavaScript
     {
       "name": "JavaScript string",
-      "scope": ["string.quoted.double.js", "string.template.js"],
+      "scope": [
+        "string.quoted.double.js",
+        "string.template.js",
+        "string.quoted.single.js.jsx"
+      ],
       "settings": {
         "foreground": "#2E8B57",
         "fontStyle": "bold"
@@ -341,7 +373,8 @@
         "keyword.control.import.js",
         "keyword.control.from.js",
         "keyword.control.export.js",
-        "keyword.control.default.js"
+        "keyword.control.default.js",
+        "entity.name.type.instance.jsdoc"
       ],
       "settings": {
         "foreground": "#00A896"
@@ -375,7 +408,11 @@
     },
     {
       "name": "JavaScript object",
-      "scope": ["variable.other.object.js", "variable.parameter.js"],
+      "scope": [
+        "variable.other.object.js",
+        "variable.parameter.js",
+        "constant.language.boolean.false.js.jsx"
+      ],
       "settings": {
         "foreground": "#9FBB73",
         "fontStyle": "italic"
@@ -405,8 +442,18 @@
       }
     },
     {
+      "name": "JavaScript documentation",
+      "scope": "comment.block.documentation.js",
+      "settings": {
+        "foreground": "#0291ce"
+      }
+    },
+    {
       "name": "JavaScript comment",
-      "scope": "comment.line.double-slash.js",
+      "scope": [
+        "comment.line.double-slash.js",
+        "punctuation.definition.comment.js"
+      ],
       "settings": {
         "foreground": "#333533",
         "fontStyle": "bold"

@@ -33,3 +33,18 @@ input {
   border: none;
   outline: none;
 }
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
