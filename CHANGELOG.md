@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.4.6 | 07.12.2023
+
+- bug fix (activity badge)
+
 ## 1.4.5 | 07.12.2023
 
 - operators visible in Meow
