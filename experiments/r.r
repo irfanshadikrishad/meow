@@ -14,6 +14,8 @@ power <- function(a, b) {
 x <- 3
 if (x > 0) {
   print("The number is positive")
+}else{
+  print("else")
 }
 print("Outside if statement")
 # create two 2 by 3 matrix

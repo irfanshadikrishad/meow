@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.0 | 10.12.2023
+
+- color of truth
+
 ## 1.4.6 | 07.12.2023
 
 - bug fix (activity badge)
