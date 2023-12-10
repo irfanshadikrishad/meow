@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.2 | 11.12.2023
+
+- bug fixes
+
 ## 1.5.1 | 11.12.2023
 
 - color customized in meow

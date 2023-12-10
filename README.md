@@ -16,11 +16,11 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 
 <details>
 <summary>Meow</summary>
-    <img src="assets/preview/meow.PNG"/>
+    <img src="assets/preview/MEOW.PNG"/>
 </details>
 <details>
 <summary>Meow β</summary>
-    <img src="assets/preview/meow-beta.PNG"/>
+    <img src="assets/preview/MEOW_BETA.PNG"/>
 </details>
 
 #### _Installation_
@@ -32,7 +32,7 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 
 For better experience [download](https://www.jetbrains.com/lp/mono/) and install _'JetBrains Mono'_ and include these code in `settings.json`
 
-```json
+```
 "editor.fontLigatures": true,
 "editor.fontFamily": "JetBrains Mono",
 "terminal.integrated.cursorBlinking": true,
