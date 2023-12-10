@@ -32,7 +32,7 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 
 For better experience [download](https://www.jetbrains.com/lp/mono/) and install _'JetBrains Mono'_ and include these code in `settings.json`
 
-```
+```json
 "editor.fontLigatures": true,
 "editor.fontFamily": "JetBrains Mono",
 "terminal.integrated.cursorBlinking": true,

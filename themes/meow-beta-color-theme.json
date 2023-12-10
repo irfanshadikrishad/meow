@@ -226,7 +226,7 @@
       "name": "CSS string",
       "scope": "string.quoted.double.css",
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#A9DC76"
       }
     },
     {
@@ -1544,8 +1544,6 @@
       "scope": [
         "punctuation.section.embedded.begin.php",
         "punctuation.section.embedded.end.php",
-        "keyword.control.if.php",
-        "keyword.control.else.php",
         "support.function.construct.output.php",
         "storage.type.class.php",
         "storage.modifier.php",
@@ -1553,7 +1551,21 @@
         "support.function.construct.php"
       ],
       "settings": {
-        "foreground": "#00A8E8"
+        "foreground": "#FF6188"
+      }
+    },
+    {
+      "name": "PHP conditional",
+      "scope": [
+        "keyword.control.if.php",
+        "keyword.control.else.php",
+        "keyword.control.while.php",
+        "keyword.control.do.php",
+        "keyword.control.break.php",
+        "keyword.control.continue.php"
+      ],
+      "settings": {
+        "foreground": "#78DCE8"
       }
     },
     {
@@ -1566,14 +1578,14 @@
         "variable.other.global.safer.php"
       ],
       "settings": {
-        "foreground": "#00A896"
+        "foreground": "#78DCE8"
       }
     },
     {
       "name": "PHP string",
       "scope": ["string.quoted.single.php", "string.quoted.double.php"],
       "settings": {
-        "foreground": "#68B984"
+        "foreground": "#A9DC76"
       }
     },
     {
@@ -1585,7 +1597,7 @@
         "support.function.magic.php"
       ],
       "settings": {
-        "foreground": "#E48F45"
+        "foreground": "#FC9867"
       }
     },
     {
@@ -1596,7 +1608,7 @@
         "constant.language.php"
       ],
       "settings": {
-        "foreground": "#C68B59"
+        "foreground": "#AB9DF2"
       }
     },
     {
@@ -1609,16 +1621,21 @@
     },
     {
       "name": "PHP function name",
-      "scope": ["entity.name.function.php", "support.function.math.php"],
+      "scope": [
+        "entity.name.function.php",
+        "support.function.math.php",
+        "support.function.array.php",
+        "support.function.json.php"
+      ],
       "settings": {
-        "foreground": "#BB9457"
+        "foreground": "#FC9867"
       }
     },
     {
       "name": "PHP function call",
       "scope": "meta.function-call.php",
       "settings": {
-        "foreground": "#656D4A"
+        "foreground": "#FFCD70"
       }
     },
     {
@@ -1632,7 +1649,7 @@
         "keyword.operator.class.php"
       ],
       "settings": {
-        "foreground": "#FF6969"
+        "foreground": "#FF6188"
       }
     },
     {
