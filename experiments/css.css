@@ -1,4 +1,5 @@
-@import url("");
+@import url('googlefonts');
+@import url("googlefonts");
 
 * {
   margin: 0;

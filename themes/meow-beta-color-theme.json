@@ -224,7 +224,7 @@
     },
     {
       "name": "CSS string",
-      "scope": "string.quoted.double.css",
+      "scope": ["string.quoted.double.css", "string.quoted.single.css"],
       "settings": {
         "foreground": "#A9DC76"
       }
@@ -292,7 +292,8 @@
       "name": "css font name",
       "scope": "support.constant.font-name.css",
       "settings": {
-        "foreground": "#76A21E"
+        "foreground": "#A9DC76",
+        "fontStyle": ""
       }
     },
     {
@@ -344,7 +345,8 @@
       "name": "CSS at-rule body",
       "scope": "entity.other.keyframe-offset.css",
       "settings": {
-        "foreground": "#78DCE8"
+        "foreground": "#78DCE8",
+        "fontStyle": ""
       }
     },
     {
@@ -1999,6 +2001,58 @@
       "scope": "source.swift",
       "settings": {
         "foreground": "#FC9867"
+      }
+    },
+    // YML
+    {
+      "name": "YML entity name",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#FF6188"
+      }
+    },
+    {
+      "name": "YML string",
+      "scope": [
+        "string.quoted.double.yaml",
+        "string.quoted.single.yaml",
+        "string.unquoted.plain.out.yaml"
+      ],
+      "settings": {
+        "foreground": "#A9DC76"
+      }
+    },
+    {
+      "name": "YML boolean integer float",
+      "scope": [
+        "constant.language.boolean.yaml",
+        "constant.numeric.integer.yaml",
+        "constant.numeric.float.yaml"
+      ],
+      "settings": {
+        "foreground": "#AB9DF2"
+      }
+    },
+    {
+      "name": "YML item",
+      "scope": "punctuation.definition.block.sequence.item.yaml",
+      "settings": {
+        "foreground": "#78DCE8"
+      }
+    },
+    {
+      "name": "YML comment",
+      "scope": "comment.line.number-sign.yaml",
+      "settings": {
+        "foreground": "#252525",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "YML separator",
+      "scope": "punctuation.separator.key-value.mapping.yaml",
+      "settings": {
+        "foreground": "#303030"
       }
     }
   ]
