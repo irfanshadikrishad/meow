@@ -4,7 +4,7 @@
   "description": "Fresh and clean user interface, code with no distraction. Meow in the darkness.",
   "publisher": "irfanshadikrishad",
   "icon": "images/meow.png",
-  "version": "1.5.3",
+  "version": "1.6.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/irfanshadikrishad/meow"
@@ -24,7 +24,8 @@
     "Meow β",
     "meow beta",
     "elegent theme",
-    "irfanshadikrishad.meow"
+    "irfanshadikrishad.meow",
+    "cool guys theme"
   ],
   "engines": {
     "vscode": "^1.84.0"

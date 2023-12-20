@@ -187,9 +187,25 @@
     },
     {
       "name": "HTML entity character",
-      "scope": "constant.character.entity.named.nbsp.html",
+      "scope": [
+        "constant.character.entity.named.nbsp.html",
+        "constant.character.entity.named.emsp.html",
+        "constant.character.entity.named.thinsp.html",
+        "constant.character.entity.named.ensp.html",
+        "constant.character.entity.named.lt.html",
+        "constant.character.entity.named.gt.html",
+        "constant.character.entity.named.amp.html",
+        "constant.character.entity.named.quot.html",
+        "constant.character.entity.named.cent.html",
+        "constant.character.entity.named.pound.html",
+        "constant.character.entity.named.yen.html",
+        "constant.character.entity.named.euro.html",
+        "constant.character.entity.named.copy.html",
+        "constant.character.entity.named.reg.html",
+        "constant.character.entity.named.apos.html"
+      ],
       "settings": {
-        "foreground": "#bb9900",
+        "foreground": "#AB9DF2",
         "fontStyle": ""
       }
     },

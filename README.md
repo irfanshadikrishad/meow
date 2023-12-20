@@ -2,11 +2,11 @@
   <img src="images/meow.png" width="125" />
   <h4 align=center>Meow</h4>
   <div align="center">
-      <img src="https://img.shields.io/visual-studio-marketplace/v/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/i/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/r/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/last-updated/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C" />
+      <img src="https://img.shields.io/visual-studio-marketplace/v/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=78DCE8" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/i/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=FC9867" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/r/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=A9DC76" />&nbsp;<img src="https://img.shields.io/visual-studio-marketplace/last-updated/irfanshadikrishad.meow?style=for-the-badge&labelColor=1b1b1b&color=AB9DF2" />
   </div>
 </p>
 
-Fresh & Clean Visual Studio Code dark theme. Code without distraction.
+Fresh & Clean Visual Studio Code dark theme. Choice of Cool guy's.
 
 Let's meow in the darkness.
 
@@ -42,4 +42,4 @@ For better experience [download](https://www.jetbrains.com/lp/mono/) and install
 
 © 2023-Present [Meow](https://github.com/irfanshadikrishad/meow)
 
-![GitHub License](https://img.shields.io/github/license/irfanshadikrishad/meow?style=for-the-badge&labelColor=1b1b1b&color=0A714C)
+![GitHub License](https://img.shields.io/github/license/irfanshadikrishad/meow?style=for-the-badge&labelColor=1b1b1b&color=FF6188)

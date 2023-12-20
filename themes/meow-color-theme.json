@@ -224,7 +224,7 @@
     },
     {
       "name": "CSS string",
-      "scope": "string.quoted.double.css",
+      "scope": ["string.quoted.double.css", "string.quoted.single.css"],
       "settings": {
         "foreground": "#A9DC76"
       }
@@ -837,7 +837,8 @@
         "meta.shebang.shell"
       ],
       "settings": {
-        "foreground": "#AB9DF2"
+        "foreground": "#AB9DF2",
+        "fontStyle": ""
       }
     },
     {
@@ -1155,7 +1156,7 @@
       "name": "PROPERTIES comment",
       "scope": "comment.line.number-sign.ini",
       "settings": {
-        "foreground": "#101010",
+        "foreground": "#2c2c2c",
         "fontStyle": "bold"
       }
     },

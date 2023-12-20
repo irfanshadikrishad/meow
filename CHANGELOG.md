@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.6.0 | 21.12.2023
+
+- CSS bug fix #1
+- GLOBAL comment
+- logo changed
+- ACCENT modified
+- YAML support
+
 ## 1.5.2 & 1.5.3 | 11.12.2023
 
 - bug fixes
