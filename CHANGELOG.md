@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.6.5 | 24.12.2023
+
+- Major Update on color
+- bug fixed on JSX #2
+
 ## 1.6.0 | 21.12.2023
 
 - CSS bug fix #1

@@ -16,11 +16,11 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 
 <details>
 <summary>Meow</summary>
-    <img src="assets/preview/MEOW_DEFAULT.PNG"/>
+    <img src="assets/preview/meow-preview-1.PNG"/>
 </details>
 <details>
 <summary>Meow β</summary>
-    <img src="assets/preview/MEOW_BETA.PNG"/>
+    <img src="assets/preview/meow-preview-2.PNG"/>
 </details>
 
 #### _Installation_
