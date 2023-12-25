@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.7.0 | 26.12.2023
+
+- bug fixed #3
+- TYPESCRIPT support
+- color customized (more soothing & cool)
+
 ## 1.6.5 | 24.12.2023
 
 - Major Update on color
