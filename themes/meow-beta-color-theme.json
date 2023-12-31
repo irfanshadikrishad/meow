@@ -412,12 +412,31 @@
       "scope": [
         "keyword.control.import.js",
         "keyword.control.from.js",
+        "keyword.control.as.js",
         "keyword.control.export.js",
         "keyword.control.default.js",
         "entity.name.type.instance.jsdoc"
       ],
       "settings": {
         "foreground": "#FF6188",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JavaScript import all",
+      "scope": "constant.language.import-export-all.js",
+      "settings": {
+        "foreground": "#78DCE8"
+      }
+    },
+    {
+      "name": "JavaScript boolean",
+      "scope": [
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js"
+      ],
+      "settings": {
+        "foreground": "#AB9DF2",
         "fontStyle": ""
       }
     },
@@ -593,12 +612,10 @@
     },
     {
       "name": "JS boolean",
-      "scope": [
-        "constant.language.boolean.true.js",
-        "variable.language.this.js"
-      ],
+      "scope": ["variable.language.this.js"],
       "settings": {
-        "foreground": "#68A691"
+        "foreground": "#68A691",
+        "fontStyle": ""
       }
     },
     {
