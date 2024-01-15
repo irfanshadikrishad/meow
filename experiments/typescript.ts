@@ -1,18 +1,27 @@
-interface User {
-  name: string;
-  id: number;
+type CarYear = number;
+type CarType = string;
+type CarModel = string;
+type Car = {
+  year: CarYear;
+  type: CarType;
+  model: CarModel;
+};
+
+const carYear: CarYear = 2001;
+const carType: CarType = "Toyota";
+const carModel: CarModel = "Corolla";
+const car: Car = {
+  year: carYear,
+  type: carType,
+  model: carModel,
+};
+function getTime(): number {
+  return new Date().getTime();
 }
-
-class UserAccount {
-  name: string;
-  id: number;
-
-  constructor(name: string, id: number) {
-    this.name = name;
-    this.id = id;
-  }
+function printStatusCode(code: string | number) {
+  console.log(`My status code is ${code}.`);
 }
-
-const user: User = new UserAccount("Murphy", 1);
-
-// typescript comment
+printStatusCode(404);
+printStatusCode("404");
+let x: unknown = "hello";
+console.log((x as string).length);

@@ -565,7 +565,8 @@
         "keyword.operator.logical.js",
         "keyword.operator.decrement.js",
         "keyword.operator.assignment.compound.js",
-        "keyword.operator.arithmetic.js"
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.relational.js"
       ],
       "settings": {
         "foreground": "#303030",
@@ -1879,7 +1880,15 @@
         "storage.type.type.ts",
         "storage.modifier.ts",
         "storage.modifier.async.ts",
-        "support.type.object.module.ts"
+        "support.type.object.module.ts",
+        "keyword.control.import.ts",
+        "keyword.control.from.ts",
+        "keyword.control.conditional.ts",
+        "keyword.control.flow.ts",
+        "keyword.control.loop.ts",
+        "keyword.control.trycatch.ts",
+        "keyword.control.switch.ts",
+        "keyword.control.default.ts"
       ],
       "settings": {
         "foreground": "#FF6188",
@@ -1887,14 +1896,22 @@
       }
     },
     {
-      "scope": "meta.object-literal.key.ts",
+      "scope": [
+        "meta.object-literal.key.ts",
+        "variable.other.object.property.ts"
+      ],
       "settings": {
         "foreground": "#FC9867"
       }
     },
     {
       "name": "TYPESCRIPT function type",
-      "scope": "storage.type.function.ts",
+      "scope": [
+        "storage.type.function.ts",
+        "string.template.ts",
+        "string.quoted.single.ts",
+        "string.quoted.double.ts"
+      ],
       "settings": {
         "foreground": "#FFCD70",
         "fontStyle": ""
@@ -1904,7 +1921,9 @@
       "name": "TYPESCRIPT optional",
       "scope": [
         "keyword.operator.optional.ts",
-        "constant.language.boolean.true.ts"
+        "constant.language.boolean.true.ts",
+        "variable.other.object.ts",
+        "variable.other.constant.object.ts"
       ],
       "settings": {
         "foreground": "#AB9DF2",
@@ -1919,7 +1938,9 @@
         "entity.name.function.ts",
         "variable.language.this.ts",
         "variable.other.constant.ts",
-        "entity.name.type.alias.ts"
+        "entity.name.type.alias.ts",
+        "variable.other.readwrite.alias.ts",
+        "keyword.control.as.ts"
       ],
       "settings": {
         "foreground": "#78DCE8"
@@ -1949,15 +1970,19 @@
       }
     },
     {
-      "name": "TYPESCRIPT string",
-      "scope": ["string.quoted.double.ts", "string.quoted.single.ts"],
+      "scope": [
+        "variable.other.constant.property.ts",
+        "keyword.operator.expression.typeof.ts",
+        "support.variable.property.ts"
+      ],
       "settings": {
-        "foreground": "#A9DC76"
+        "foreground": "#A9DC76",
+        "fontStyle": ""
       }
     },
     {
       "name": "TYPESCRIPT numeric",
-      "scope": "constant.numeric.decimal.ts",
+      "scope": ["constant.numeric.decimal.ts"],
       "settings": {
         "foreground": "#FC9867"
       }
@@ -1971,7 +1996,14 @@
         "punctuation.separator.comma.ts",
         "punctuation.accessor.ts",
         "keyword.operator.type.ts",
-        "storage.type.function.arrow.ts"
+        "storage.type.function.arrow.ts",
+        "keyword.operator.ternary.ts",
+        "keyword.operator.comparison.ts",
+        "keyword.operator.arithmetic.ts",
+        "keyword.operator.logical.ts",
+        "punctuation.separator.parameter.ts",
+        "punctuation.definition.section.case-statement.ts",
+        "keyword.operator.relational.ts"
       ],
       "settings": {
         "foreground": "#353535",

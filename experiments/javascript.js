@@ -16,7 +16,7 @@ export default function Login() {
       body: JSON.stringify({ username, password }),
     });
     const response = await request.json();
-    if (request.status === 200) {
+    if (request.status <= 200) {
       // cookieStore.set("logger", response.success);
       // router.push("/");
     } else {

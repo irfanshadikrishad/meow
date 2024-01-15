@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.7.3 | 15.01.2024
+
+- TYPESCRIPT fix
+- Bug fix
+
 ## 1.7.2 | 01.01.2024
 
 - fixed #4
