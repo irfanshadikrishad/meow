@@ -146,6 +146,8 @@
         "punctuation.definition.comment.html",
         "comment.block.html",
         "comment.line.double-slash.java",
+        "punctuation.definition.comment.java",
+        "comment.block.java",
         "comment.line.double-slash.js",
         "comment.line.double-slash.php",
         "comment.line.number-sign.python",
@@ -290,7 +292,11 @@
     },
     {
       "name": "CSS property",
-      "scope": ["support.type.property-name.css"],
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css",
+        "meta.selector.css"
+      ],
       "settings": {
         "foreground": "#FC9867"
       }
@@ -415,7 +421,8 @@
         "keyword.control.as.js",
         "keyword.control.export.js",
         "keyword.control.default.js",
-        "entity.name.type.instance.jsdoc"
+        "entity.name.type.instance.jsdoc",
+        "keyword.control.switch.js"
       ],
       "settings": {
         "foreground": "#FF6188",
@@ -1502,7 +1509,10 @@
       "scope": [
         "keyword.other.import.java",
         "storage.modifier.java",
-        "storage.type.java"
+        "storage.type.java",
+        "keyword.control.java",
+        "storage.type.primitive.array.java",
+        "storage.type.object.array.java"
       ],
       "settings": {
         "foreground": "#FF6188"
@@ -1543,7 +1553,8 @@
       "scope": [
         "variable.other.object.java",
         "variable.other.definition.java",
-        "meta.method-call.java"
+        "meta.method-call.java",
+        "meta.method.body.java"
       ],
       "settings": {
         "foreground": "#FC9867"
@@ -1570,7 +1581,8 @@
         "keyword.operator.assignment.java",
         "punctuation.separator.period.java",
         "punctuation.terminator.java",
-        "punctuation.bracket.angle.java"
+        "punctuation.bracket.angle.java",
+        "keyword.control.ternary.java"
       ],
       "settings": {
         "foreground": "#414141",

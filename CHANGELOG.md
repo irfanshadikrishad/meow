@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.7.4 | 20.01.2024
+
+- Java Support
+- Bug fix on JavaScript
+- Bug fixed #5
+
 ## 1.7.3 | 15.01.2024
 
 - TYPESCRIPT fix
