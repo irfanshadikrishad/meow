@@ -295,7 +295,8 @@
       "scope": [
         "support.type.property-name.css",
         "support.type.vendored.property-name.css",
-        "meta.selector.css"
+        "meta.selector.css",
+        "meta.property-name.css"
       ],
       "settings": {
         "foreground": "#FC9867"
@@ -1900,7 +1901,9 @@
         "keyword.control.loop.ts",
         "keyword.control.trycatch.ts",
         "keyword.control.switch.ts",
-        "keyword.control.default.ts"
+        "keyword.control.default.ts",
+        "storage.type.enum.ts",
+        "storage.type.function.ts"
       ],
       "settings": {
         "foreground": "#FF6188",
@@ -1910,7 +1913,8 @@
     {
       "scope": [
         "meta.object-literal.key.ts",
-        "variable.other.object.property.ts"
+        "variable.other.object.property.ts",
+        "variable.other.enummember.ts"
       ],
       "settings": {
         "foreground": "#FC9867"
@@ -1919,7 +1923,6 @@
     {
       "name": "TYPESCRIPT function type",
       "scope": [
-        "storage.type.function.ts",
         "string.template.ts",
         "string.quoted.single.ts",
         "string.quoted.double.ts"
@@ -1932,7 +1935,6 @@
     {
       "name": "TYPESCRIPT optional",
       "scope": [
-        "keyword.operator.optional.ts",
         "constant.language.boolean.true.ts",
         "variable.other.object.ts",
         "variable.other.constant.object.ts"
@@ -1952,10 +1954,25 @@
         "variable.other.constant.ts",
         "entity.name.type.alias.ts",
         "variable.other.readwrite.alias.ts",
-        "keyword.control.as.ts"
+        "keyword.control.as.ts",
+        "keyword.operator.optional.ts",
+        "entity.name.type.enum.ts",
+        "constant.language.boolean.true.ts",
+        "constant.language.boolean.false.ts",
+        "constant.language.null.ts",
+        "constant.language.undefined.ts",
+        "entity.other.inherited-class.ts"
       ],
       "settings": {
         "foreground": "#78DCE8"
+      }
+    },
+    {
+      "name": "TYPESCRIPT types v2",
+      "scope": ["support.type.primitive.ts", "keyword.operator.optional.ts"],
+      "settings": {
+        "foreground": "#A1C181",
+        "fontStyle": ""
       }
     },
     {
@@ -1972,11 +1989,7 @@
     },
     {
       "name": "TYPESCRIPT primitive",
-      "scope": [
-        "support.type.primitive.ts",
-        "variable.other.readwrite.ts",
-        "support.type.builtin.ts"
-      ],
+      "scope": ["variable.other.readwrite.ts", "support.type.builtin.ts"],
       "settings": {
         "foreground": "#AB9DF2"
       }

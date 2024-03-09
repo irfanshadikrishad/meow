@@ -247,7 +247,7 @@
     },
     {
       "name": "CSS property",
-      "scope": ["support.type.property-name.css"],
+      "scope": ["support.type.property-name.css", "meta.property-name.css"],
       "settings": {
         "foreground": "#FC9867"
       }
@@ -1890,7 +1890,8 @@
         "keyword.control.loop.ts",
         "keyword.control.trycatch.ts",
         "keyword.control.switch.ts",
-        "keyword.control.default.ts"
+        "keyword.control.default.ts",
+        "storage.type.enum.ts"
       ],
       "settings": {
         "foreground": "#FF6188",
@@ -1900,7 +1901,8 @@
     {
       "scope": [
         "meta.object-literal.key.ts",
-        "variable.other.object.property.ts"
+        "variable.other.object.property.ts",
+        "variable.other.enummember.ts"
       ],
       "settings": {
         "foreground": "#FC9867"
@@ -1942,7 +1944,9 @@
         "variable.other.constant.ts",
         "entity.name.type.alias.ts",
         "variable.other.readwrite.alias.ts",
-        "keyword.control.as.ts"
+        "keyword.control.as.ts",
+        "support.type.primitive.ts",
+        "entity.name.type.enum.ts"
       ],
       "settings": {
         "foreground": "#78DCE8"
@@ -1954,7 +1958,11 @@
         "variable.object.property.ts",
         "variable.parameter.ts",
         "entity.name.type.ts",
-        "variable.other.property.ts"
+        "variable.other.property.ts",
+        "constant.language.boolean.true.ts",
+        "constant.language.boolean.false.ts",
+        "constant.language.undefined.ts",
+        "constant.language.null.ts"
       ],
       "settings": {
         "foreground": "#FC9867"
@@ -1962,11 +1970,7 @@
     },
     {
       "name": "TYPESCRIPT primitive",
-      "scope": [
-        "support.type.primitive.ts",
-        "variable.other.readwrite.ts",
-        "support.type.builtin.ts"
-      ],
+      "scope": ["variable.other.readwrite.ts", "support.type.builtin.ts"],
       "settings": {
         "foreground": "#AB9DF2"
       }

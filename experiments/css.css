@@ -1,4 +1,4 @@
-@import url('googlefonts');
+@import url("googlefonts");
 @import url("googlefonts");
 
 * {
@@ -25,6 +25,7 @@ body {
   border: none;
   margin: 1px 1px;
   padding: 2fr 1pt;
+  aspect-ratio: 16/9;
 }
 
 #id {

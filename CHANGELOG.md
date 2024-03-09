@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.7.5 | 10.03.2024
+
+- TypeScript Support 🔼
+- CSS fix
+
 ## 1.7.4 | 20.01.2024
 
 - Java Support
