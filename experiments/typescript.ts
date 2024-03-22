@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 let first: string = "hello";
 let n1: number = 15;
 let boo1: boolean = true;
@@ -6,7 +7,7 @@ let nullValue: null = null;
 let undefinedValue: undefined = undefined;
 const key: symbol = Symbol("unique_key");
 let numbers: number[] = [1, 2, 3, 4, 5];
-let person: [string, number] = ["John", 30];
+let people: [string, number] = ["John", 30];
 let ghost: any = "hey any";
 // 7AE7C7
 const car: { type: string; model: string; year: number } = {
@@ -51,16 +52,27 @@ add = (a: number, b: number) => {
 
 console.log(add(5, 10));
 
-// Class
-class Person {
-  name: string;
-}
-
-const person2 = new Person();
-person2.name = "Jane";
-
 // Generics
 function createPair<S, T>(v1: S, v2: T): [S, T] {
   return [v1, v2];
 }
 console.log(createPair<string, number>("hello", 42));
+
+// Class
+class Person {
+  public age: number;
+  public firstName: string;
+  public lastName: string;
+
+  // Getter & Setter
+  public get getAge() {
+    return this.age;
+  }
+  public set setAge(new_age: number) {
+    this.age = new_age;
+  }
+}
+
+// Object
+let person = new Person();
+person.age = 26;

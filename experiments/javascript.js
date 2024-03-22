@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use client";
 import { useRouter } from "next/navigation";
 import { useState } from "react";

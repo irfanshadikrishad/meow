@@ -157,7 +157,6 @@
         "comment.line.double-slash.swift",
         "comment.line.double-slash.ts",
         "comment.line.number-sign.yaml",
-        "punctuation.definition.comment.ts",
         "comment.block.documentation.ts",
         "comment.line.number-sign.dockerfile"
       ],
@@ -432,7 +431,10 @@
     },
     {
       "name": "JavaScript import all",
-      "scope": "constant.language.import-export-all.js",
+      "scope": [
+        "constant.language.import-export-all.js",
+        "comment.line.shebang.js"
+      ],
       "settings": {
         "foreground": "#78DCE8"
       }
@@ -1961,7 +1963,8 @@
         "constant.language.boolean.false.ts",
         "constant.language.null.ts",
         "constant.language.undefined.ts",
-        "entity.other.inherited-class.ts"
+        "entity.other.inherited-class.ts",
+        "variable.language.super.ts"
       ],
       "settings": {
         "foreground": "#78DCE8"
@@ -1969,7 +1972,11 @@
     },
     {
       "name": "TYPESCRIPT types v2",
-      "scope": ["support.type.primitive.ts", "keyword.operator.optional.ts"],
+      "scope": [
+        "support.type.primitive.ts",
+        "keyword.operator.optional.ts",
+        "comment.line.shebang.ts"
+      ],
       "settings": {
         "foreground": "#A1C181",
         "fontStyle": ""
@@ -1989,7 +1996,11 @@
     },
     {
       "name": "TYPESCRIPT primitive",
-      "scope": ["variable.other.readwrite.ts", "support.type.builtin.ts"],
+      "scope": [
+        "variable.other.readwrite.ts",
+        "support.type.builtin.ts",
+        "storage.type.property.ts"
+      ],
       "settings": {
         "foreground": "#AB9DF2"
       }

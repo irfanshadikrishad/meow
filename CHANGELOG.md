@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.8.1 | 23.03.2024
+
+- Bug fixed #6
+
 ## 1.7.5 | 10.03.2024
 
 - TypeScript Support 🔼

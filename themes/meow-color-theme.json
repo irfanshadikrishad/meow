@@ -371,7 +371,7 @@
     },
     {
       "name": "JavaScript import all",
-      "scope": "constant.language.import-export-all.js",
+      "scope": ["constant.language.import-export-all.js"],
       "settings": {
         "foreground": "#78DCE8"
       }
@@ -423,7 +423,10 @@
     },
     {
       "name": "JavaScript object",
-      "scope": "variable.other.constant.object.js",
+      "scope": [
+        "variable.other.constant.object.js",
+        "storage.type.property.ts"
+      ],
       "settings": {
         "foreground": "#FC9867"
       }
@@ -467,7 +470,8 @@
       "scope": [
         "storage.type.js",
         "keyword.control.trycatch.js",
-        "storage.type.function.js"
+        "storage.type.function.js",
+        "comment.line.shebang.ts"
       ],
       "settings": {
         "foreground": "#78DCE8",
@@ -484,8 +488,8 @@
     {
       "name": "JavaScript comment",
       "scope": [
-        "comment.line.double-slash.js",
-        "punctuation.definition.comment.js"
+        "comment.line.double-slash.js"
+        // "punctuation.definition.comment.js"
       ],
       "settings": {
         "foreground": "#333533",
@@ -2013,7 +2017,7 @@
       ],
       "settings": {
         "foreground": "#636363",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
     // SWIFT
