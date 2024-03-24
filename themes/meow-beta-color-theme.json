@@ -480,10 +480,7 @@
     },
     {
       "name": "JavaScript object",
-      "scope": [
-        "variable.parameter.js",
-        "constant.language.boolean.false.js.jsx"
-      ],
+      "scope": ["variable.parameter.js"],
       "settings": {
         "foreground": "#A9DC76",
         "fontStyle": "italic"
@@ -576,7 +573,9 @@
         "keyword.operator.decrement.js",
         "keyword.operator.assignment.compound.js",
         "keyword.operator.arithmetic.js",
-        "keyword.operator.relational.js"
+        "keyword.operator.relational.js",
+        "constant.language.null.js.jsx",
+        "constant.language.undefined.js.jsx"
       ],
       "settings": {
         "foreground": "#303030",
@@ -1939,7 +1938,8 @@
       "scope": [
         "constant.language.boolean.true.ts",
         "variable.other.object.ts",
-        "variable.other.constant.object.ts"
+        "variable.other.constant.object.ts",
+        "comment.line.triple-slash.directive.ts"
       ],
       "settings": {
         "foreground": "#AB9DF2",
@@ -2178,6 +2178,96 @@
       ],
       "settings": {
         "foreground": "#FFCD70"
+      }
+    },
+    // TSX
+    {
+      "name": "TSX keywords",
+      "scope": [
+        "keyword.control.import.tsx",
+        "keyword.control.from.tsx",
+        "keyword.control.export.tsx",
+        "keyword.control.flow.tsx",
+        "entity.name.tag.tsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "keyword.control.default.tsx",
+        "storage.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#FF6188",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TSX readwrite",
+      "scope": [
+        "variable.other.readwrite.alias.tsx",
+        "entity.name.function.tsx",
+        "keyword.control.type.tsx",
+        "entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#78DCE8",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TSX string",
+      "scope": "string.quoted.double.tsx",
+      "settings": {
+        "foreground": "#A9DC76",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TSX function",
+      "scope": ["storage.type.function.tsx", "variable.other.readwrite.tsx"],
+      "settings": {
+        "foreground": "#FFCD70",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TSX attribute",
+      "scope": [
+        "entity.other.attribute-name.tsx",
+        "variable.other.property.tsx",
+        "meta.object-literal.key.tsx",
+        "variable.object.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#FC9867",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TSX operator",
+      "scope": [
+        "keyword.operator.assignment.tsx",
+        "meta.jsx.children.tsx",
+        "punctuation.separator.comma.tsx",
+        "punctuation.terminator.statement.tsx",
+        "keyword.operator.type.annotation.tsx",
+        "punctuation.accessor.tsx"
+      ],
+      "settings": {
+        "foreground": "#303030",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TSX object",
+      "scope": [
+        "variable.other.object.tsx",
+        "constant.numeric.decimal.tsx",
+        "variable.other.constant.tsx",
+        "variable.parameter.tsx",
+        "entity.name.type.module.tsx"
+      ],
+      "settings": {
+        "foreground": "#AB9DF2",
+        "fontStyle": ""
       }
     }
   ]

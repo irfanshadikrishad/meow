@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.8.2 | 25.03.2024
+
+- TSX support
+
 ## 1.8.1 | 23.03.2024
 
 - Bug fixed #6
