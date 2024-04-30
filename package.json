@@ -4,7 +4,7 @@
   "description": "Fresh and clean user interface, code with no distraction. Meow in the darkness.",
   "publisher": "irfanshadikrishad",
   "icon": "images/meow.png",
-  "version": "1.8.2",
+  "version": "1.9.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/irfanshadikrishad/meow"
@@ -29,7 +29,17 @@
     "code styling",
     "syntext highlighting",
     "moonlight similar",
-    "Moonlight reBump"
+    "Moonlight reBump",
+    "MeowTheme",
+    "VSCodeTheme",
+    "CatTheme",
+    "CodeMeow",
+    "CodeTheme",
+    "ColorfulCoding",
+    "CodePalette",
+    "DeveloperStyle",
+    "CreativeCoding",
+    "CustomTheme"
   ],
   "engines": {
     "vscode": "^1.84.0"

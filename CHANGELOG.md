@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.9.0 | 01.05.2024
+
+- TypeScript Support 🔼
+- Meow theme modified
+
 ## 1.8.2 | 25.03.2024
 
 - TSX support

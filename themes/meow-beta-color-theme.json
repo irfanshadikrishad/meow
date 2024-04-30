@@ -1904,7 +1904,14 @@
         "keyword.control.switch.ts",
         "keyword.control.default.ts",
         "storage.type.enum.ts",
-        "storage.type.function.ts"
+        "storage.type.function.ts",
+        "keyword.control.conditional.tsx",
+        "storage.modifier.async.tsx",
+        "keyword.operator.new.tsx",
+        "keyword.control.trycatch.tsx",
+        "variable.language.this.js.jsx",
+        "storage.type.js.jsx",
+        "variable.other.assignment.shell"
       ],
       "settings": {
         "foreground": "#FF6188",
@@ -1939,7 +1946,8 @@
         "constant.language.boolean.true.ts",
         "variable.other.object.ts",
         "variable.other.constant.object.ts",
-        "comment.line.triple-slash.directive.ts"
+        "comment.line.triple-slash.directive.ts",
+        "support.constant.json.tsx"
       ],
       "settings": {
         "foreground": "#AB9DF2",
@@ -1964,7 +1972,8 @@
         "constant.language.null.ts",
         "constant.language.undefined.ts",
         "entity.other.inherited-class.ts",
-        "variable.language.super.ts"
+        "variable.language.super.ts",
+        "support.variable.property.tsx"
       ],
       "settings": {
         "foreground": "#78DCE8"
@@ -2017,8 +2026,21 @@
       }
     },
     {
+      "scope": [
+        "support.class.builtin.js.jsx",
+        "constant.language.boolean.true.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#89B0AE",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "TYPESCRIPT numeric",
-      "scope": ["constant.numeric.decimal.ts"],
+      "scope": [
+        "constant.numeric.decimal.ts",
+        "variable.other.object.property.tsx"
+      ],
       "settings": {
         "foreground": "#FC9867"
       }
@@ -2039,11 +2061,48 @@
         "keyword.operator.logical.ts",
         "punctuation.separator.parameter.ts",
         "punctuation.definition.section.case-statement.ts",
-        "keyword.operator.relational.ts"
+        "keyword.operator.relational.ts",
+        "storage.type.function.arrow.tsx",
+        "keyword.operator.logical.tsx",
+        "keyword.operator.comparison.tsx",
+        "comment.line.double-slash.tsx",
+        "keyword.operator.type.tsx"
       ],
       "settings": {
         "foreground": "#353535",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["support.type.primitive.tsx", "support.type.builtin.tsx"],
+      "settings": {
+        "foreground": "#68A691",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TYPESCRIPT builtin",
+      "scope": [
+        "support.class.builtin.ts",
+        "variable.other.constant.property.tsx",
+        "support.function.json.tsx"
+      ],
+      "settings": {
+        "foreground": "#74C69D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TYPESCRIPT boolean",
+      "scope": [
+        // "constant.language.boolean.true.tsx",
+        // "constant.language.boolean.false.tsx",
+        // "constant.language.undefined.tsx",
+        // "constant.language.null.tsx"
+        "meta.object.member.tsx"
+      ],
+      "settings": {
+        "foreground": "#DA667B"
       }
     },
     // SWIFT
@@ -2192,7 +2251,8 @@
         "punctuation.definition.tag.begin.tsx",
         "punctuation.definition.tag.end.tsx",
         "keyword.control.default.tsx",
-        "storage.type.tsx"
+        "storage.type.tsx",
+        "storage.type.type.tsx"
       ],
       "settings": {
         "foreground": "#FF6188",
@@ -2205,7 +2265,8 @@
         "variable.other.readwrite.alias.tsx",
         "entity.name.function.tsx",
         "keyword.control.type.tsx",
-        "entity.name.type.tsx"
+        "entity.name.type.tsx",
+        "entity.name.type.alias.tsx"
       ],
       "settings": {
         "foreground": "#78DCE8",
@@ -2214,7 +2275,11 @@
     },
     {
       "name": "TSX string",
-      "scope": "string.quoted.double.tsx",
+      "scope": [
+        "string.template.tsx",
+        "string.quoted.double.tsx",
+        "string.quoted.single.tsx"
+      ],
       "settings": {
         "foreground": "#A9DC76",
         "fontStyle": ""
@@ -2222,9 +2287,9 @@
     },
     {
       "name": "TSX function",
-      "scope": ["storage.type.function.tsx", "variable.other.readwrite.tsx"],
+      "scope": ["storage.type.function.tsx"],
       "settings": {
-        "foreground": "#FFCD70",
+        "foreground": "#FC9E4F",
         "fontStyle": ""
       }
     },
@@ -2232,7 +2297,6 @@
       "name": "TSX attribute",
       "scope": [
         "entity.other.attribute-name.tsx",
-        "variable.other.property.tsx",
         "meta.object-literal.key.tsx",
         "variable.object.property.tsx"
       ],
@@ -2263,11 +2327,18 @@
         "constant.numeric.decimal.tsx",
         "variable.other.constant.tsx",
         "variable.parameter.tsx",
-        "entity.name.type.module.tsx"
+        "entity.name.type.module.tsx",
+        "variable.other.readwrite.tsx"
       ],
       "settings": {
         "foreground": "#AB9DF2",
         "fontStyle": ""
+      }
+    },
+    {
+      "scope": "variable.other.property.tsx",
+      "settings": {
+        "foreground": "#E26D5C"
       }
     }
   ]
