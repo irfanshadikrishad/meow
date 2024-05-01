@@ -1,9 +1,10 @@
 # CHANGELOG
 
-## 1.9.0 | 01.05.2024
+## 1.9.0 (1.9.1) | 01.05.2024
 
 - TypeScript Support 🔼
 - Meow theme modified
+- bug fix
 
 ## 1.8.2 | 25.03.2024
 

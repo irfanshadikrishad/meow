@@ -2074,7 +2074,12 @@
       }
     },
     {
-      "scope": ["support.type.primitive.tsx", "support.type.builtin.tsx"],
+      "scope": [
+        "support.type.primitive.tsx",
+        "support.type.builtin.tsx",
+        "meta.embedded.expression.tsx",
+        "meta.var.expr.tsx"
+      ],
       "settings": {
         "foreground": "#68A691",
         "fontStyle": ""
@@ -2085,7 +2090,8 @@
       "scope": [
         "support.class.builtin.ts",
         "variable.other.constant.property.tsx",
-        "support.function.json.tsx"
+        "support.function.json.tsx",
+        "support.class.builtin.tsx"
       ],
       "settings": {
         "foreground": "#74C69D",
