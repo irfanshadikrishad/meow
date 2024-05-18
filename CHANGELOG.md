@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.9.2 | 18.05.2024
+
+- fixed #7
+
 ## 1.9.0 (1.9.1) | 01.05.2024
 
 - TypeScript Support 🔼

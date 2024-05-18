@@ -1098,7 +1098,10 @@
     },
     {
       "name": "PYTHON function builtin",
-      "scope": "support.function.builtin.python",
+      "scope": [
+        "support.function.builtin.python",
+        "support.function.json.js.jsx"
+      ],
       "settings": {
         "foreground": "#FFCD70",
         "fontStyle": ""
@@ -1154,7 +1157,11 @@
     },
     {
       "name": "C primitive",
-      "scope": "storage.type.built-in.primitive.c",
+      "scope": [
+        "storage.type.built-in.primitive.c",
+        "support.constant.json.js.jsx",
+        "keyword.other.debugger.js.jsx"
+      ],
       "settings": {
         "foreground": "#FC9867"
       }
@@ -1855,7 +1862,7 @@
     },
     {
       "name": "SQL create",
-      "scope": "keyword.other.create.sql",
+      "scope": ["keyword.other.create.sql", "keyword.operator.ternary.js.jsx"],
       "settings": {
         "foreground": "#78DCE8",
         "fontStyle": "italic"
@@ -2078,7 +2085,8 @@
         "support.type.primitive.tsx",
         "support.type.builtin.tsx",
         "meta.embedded.expression.tsx",
-        "meta.var.expr.tsx"
+        "meta.var.expr.tsx",
+        "support.class.builtin.js"
       ],
       "settings": {
         "foreground": "#68A691",
@@ -2342,9 +2350,10 @@
       }
     },
     {
-      "scope": "variable.other.property.tsx",
+      "scope": ["variable.other.property.tsx", "support.function.js.jsx"],
       "settings": {
-        "foreground": "#E26D5C"
+        "foreground": "#E26D5C",
+        "fontStyle": ""
       }
     }
   ]
