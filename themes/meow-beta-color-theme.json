@@ -298,7 +298,7 @@
         "meta.property-name.css"
       ],
       "settings": {
-        "foreground": "#FC9867"
+        "foreground": "#fc9867"
       }
     },
     {
@@ -317,9 +317,9 @@
     },
     {
       "name": "css class",
-      "scope": "entity.other.attribute-name.class.css",
+      "scope": ["entity.other.attribute-name.class.css"],
       "settings": {
-        "foreground": "#FFCD70"
+        "foreground": "#5abda9"
       }
     },
     {
@@ -400,6 +400,13 @@
       }
     },
     // JavaScript
+    {
+      "name": "JavaScript function call",
+      "scope": "meta.function-call.js",
+      "settings": {
+        "foreground": "#78DCE8"
+      }
+    },
     {
       "name": "JavaScript string",
       "scope": [
@@ -482,7 +489,7 @@
       "name": "JavaScript object",
       "scope": ["variable.parameter.js"],
       "settings": {
-        "foreground": "#A9DC76",
+        "foreground": "#E39774",
         "fontStyle": "italic"
       }
     },
@@ -504,15 +511,14 @@
     },
     {
       "name": "JavaScript conditional",
-      "scope": "keyword.control.conditional.js",
+      "scope": ["keyword.control.conditional.js", "storage.type.js"],
       "settings": {
-        "foreground": "#FF6188"
+        "foreground": "#EF476F"
       }
     },
     {
       "name": "JavaScript storage type",
       "scope": [
-        "storage.type.js",
         "keyword.control.trycatch.js",
         "storage.type.function.js",
         "keyword.operator.expression.delete.js"
@@ -530,8 +536,20 @@
       }
     },
     {
+      "scope": "meta.block.js",
+      "settings": {
+        "foreground": "#5C9EAD"
+      }
+    },
+    {
+      "scope": "variable.other.object.js",
+      "settings": {
+        "foreground": "#E26D5C"
+      }
+    },
+    {
       "name": "JavaScript object other",
-      "scope": ["variable.other.object.js", "support.class.promise.js"],
+      "scope": ["support.class.promise.js"],
       "settings": {
         "foreground": "#FC9867",
         "fontStyle": ""
@@ -925,7 +943,8 @@
       "scope": [
         "string.unquoted.argument.shell",
         "string.quoted.double.shell",
-        "string.quoted.single.shell"
+        "string.quoted.single.shell",
+        "string.unquoted.shell"
       ],
       "settings": {
         "foreground": "#A9DC76",
@@ -965,7 +984,10 @@
         "keyword.control.do.shell",
         "keyword.control.then.shell",
         "keyword.control.elif.shell",
-        "keyword.control.else.shell"
+        "keyword.control.else.shell",
+        "meta.case.shell",
+        "keyword.control.done.shell",
+        "meta.for.shell"
       ],
       "settings": {
         "foreground": "#78DCE8",
@@ -1196,7 +1218,7 @@
         "keyword.operator.increment.c"
       ],
       "settings": {
-        "foreground": "#FF6188",
+        "foreground": "#404040",
         "fontStyle": ""
       }
     },
@@ -1219,7 +1241,7 @@
       "name": "INI source",
       "scope": "source.ini",
       "settings": {
-        "foreground": "#A9DC76"
+        "foreground": "#78DCE8"
       }
     },
     {
@@ -1233,7 +1255,7 @@
       "name": "PROPERTIES separator",
       "scope": "punctuation.separator.key-value.ini",
       "settings": {
-        "foreground": "#78DCE8",
+        "foreground": "#3b3b3b",
         "fontStyle": ""
       }
     },

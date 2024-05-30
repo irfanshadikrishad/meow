@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.9.3 | 31.05.2024
+
+- JavaScript Syntax fix
+
 ## 1.9.2 | 18.05.2024
 
 - fixed #7
