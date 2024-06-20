@@ -150,6 +150,7 @@
         "comment.block.java",
         "comment.line.double-slash.js",
         "comment.line.double-slash.php",
+        "comment.block.php",
         "comment.line.number-sign.python",
         "comment.line.number-sign.r",
         "comment.line.double-slash.rust",
@@ -1615,6 +1616,49 @@
     },
     // PHP
     {
+      "scope": "support.function.curl.php",
+      "settings": {
+        "foreground": "#A98467"
+      }
+    },
+    {
+      "scope": "support.function.network.php",
+      "settings": {
+        "foreground": "#9C6644"
+      }
+    },
+    {
+      "scope": "variable.other.global.php",
+      "settings": {
+        "foreground": "#1bdda3",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "support.class.builtin.php",
+      "settings": {
+        "foreground": "#21b4f8"
+      }
+    },
+    {
+      "scope": "constant.other.class.php",
+      "settings": {
+        "foreground": "#38A3A5"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.die.php",
+        "keyword.control.exit.php",
+        "keyword.control.goto.php",
+        "support.function.errorfunc.php",
+        "support.function.info.php"
+      ],
+      "settings": {
+        "foreground": "#EF476F"
+      }
+    },
+    {
       "name": "PHP section",
       "scope": [
         "punctuation.section.embedded.begin.php",
@@ -1623,7 +1667,10 @@
         "storage.type.class.php",
         "storage.modifier.php",
         "variable.language.this.php",
-        "support.function.construct.php"
+        "support.function.construct.php",
+        "keyword.control.foreach.php",
+        "keyword.operator.logical.php",
+        "meta.embedded.block.php"
       ],
       "settings": {
         "foreground": "#FF6188"
@@ -2381,6 +2428,39 @@
       "settings": {
         "foreground": "#8be045",
         "fontStyle": ""
+      }
+    },
+    {
+      "scope": "source.github-actions-workflow",
+      "settings": {
+        "foreground": "#157f92",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable.other.read.github-actions-expression",
+      "settings": {
+        "foreground": "#00ffea7a",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "comment.line.number-sign.ruby",
+      "settings": {
+        "foreground": "#252525",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable.other.constant.ruby",
+      "settings": {
+        "foreground": "#E07A5F"
+      }
+    },
+    {
+      "scope": "source.ruby",
+      "settings": {
+        "foreground": "#9C6644"
       }
     }
   ]
