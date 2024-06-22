@@ -53,7 +53,7 @@ input {
   }
 }
 
-@keyframes mymove {
+@keyframes animation {
   from {
     top: 0px;
   }

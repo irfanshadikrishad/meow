@@ -4,7 +4,7 @@
   "description": "Fresh and clean user interface, code with no distraction. Meow in the darkness.",
   "publisher": "irfanshadikrishad",
   "icon": "images/meow.png",
-  "version": "1.9.5",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/irfanshadikrishad/meow"
@@ -14,32 +14,14 @@
     "url": "https://github.com/irfanshadikrishad/meow/issues"
   },
   "keywords": [
-    "meow",
-    "meow theme",
-    "meow dark theme",
-    "meow irfanshadikrishad",
-    "irfanshadikrishad",
+    "aesthetic",
+    "elegent",
+    "dark",
+    "night mode",
+    "modern",
+    "syntax highlight",
     "meow dark",
-    "dark theme",
-    "Meow β",
-    "meow beta",
-    "elegent theme",
-    "irfanshadikrishad.meow",
-    "cool guys theme",
-    "code styling",
-    "syntext highlighting",
-    "moonlight similar",
-    "Moonlight reBump",
-    "MeowTheme",
-    "VSCodeTheme",
-    "CatTheme",
-    "CodeMeow",
-    "CodeTheme",
-    "ColorfulCoding",
-    "CodePalette",
-    "DeveloperStyle",
-    "CreativeCoding",
-    "CustomTheme"
+    "meow"
   ],
   "engines": {
     "vscode": "^1.84.0"
@@ -52,12 +34,7 @@
       {
         "label": "Meow",
         "uiTheme": "vs-dark",
-        "path": "./themes/meow-color-theme.json"
-      },
-      {
-        "label": "Meow β",
-        "uiTheme": "vs-dark",
-        "path": "./themes/meow-beta-color-theme.json"
+        "path": "./themes/meow.json"
       }
     ]
   }
