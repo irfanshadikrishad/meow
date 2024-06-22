@@ -6,9 +6,7 @@
   </div>
 </p>
 
-Fresh & Clean Visual Studio Code dark theme. Choice of Cool guy's.
-
-Let's meow in the darkness.
+Fresh and clean user interface, code with no distraction. Meow in the darkness.
 
 report any issues, bugs or suggestions [here](https://github.com/irfanshadikrishad/meow/issues)
 
@@ -16,11 +14,7 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 
 <details>
 <summary>Meow</summary>
-    <img src="assets/preview/meow-preview-1.7.1-1.PNG"/>
-</details>
-<details>
-<summary>Meow β</summary>
-    <img src="assets/preview/meow-preview-1.7.1-2.PNG"/>
+    <img src="assets/preview/meow-2.0.0.JPG"/>
 </details>
 
 #### _Installation_
