@@ -2249,9 +2249,10 @@
     // YAML
     {
       "name": "YAML entity name",
-      "scope": "entity.name.tag.yaml",
+      "scope": ["entity.name.tag.yaml", "constant.language.boolean.yaml"],
       "settings": {
-        "foreground": "#FF6188"
+        "foreground": "#FF6188",
+        "fontStyle": ""
       }
     },
     {
@@ -2262,32 +2263,35 @@
         "string.unquoted.plain.out.yaml"
       ],
       "settings": {
-        "foreground": "#A9DC76"
+        "foreground": "#A9DC76",
+        "fontStyle": ""
       }
     },
     {
       "name": "YAML boolean integer float",
-      "scope": [
-        "constant.language.boolean.yaml",
-        "constant.numeric.integer.yaml",
-        "constant.numeric.float.yaml"
-      ],
+      "scope": ["constant.numeric.integer.yaml", "constant.numeric.float.yaml"],
       "settings": {
-        "foreground": "#AB9DF2"
+        "foreground": "#AB9DF2",
+        "fontStyle": ""
       }
     },
     {
       "name": "YAML item",
-      "scope": "punctuation.definition.block.sequence.item.yaml",
+      "scope": [
+        "punctuation.definition.block.sequence.item.yaml",
+        "keyword.control.flow.block-scalar.literal.yaml"
+      ],
       "settings": {
-        "foreground": "#78DCE8"
+        "foreground": "#78DCE8",
+        "fontStyle": ""
       }
     },
     {
       "name": "YAML separator",
       "scope": "punctuation.separator.key-value.mapping.yaml",
       "settings": {
-        "foreground": "#202020"
+        "foreground": "#202020",
+        "fontStyle": ""
       }
     },
     // DOCKER
@@ -2433,14 +2437,14 @@
     {
       "scope": "source.github-actions-workflow",
       "settings": {
-        "foreground": "#157f92",
-        "fontStyle": "bold"
+        "foreground": "#c3b091",
+        "fontStyle": ""
       }
     },
     {
       "scope": "variable.other.read.github-actions-expression",
       "settings": {
-        "foreground": "#00ffea7a",
+        "foreground": "#E07A5F",
         "fontStyle": ""
       }
     },

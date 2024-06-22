@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.9.5 | 22.06.2024
+
+- YML updated
+
 ## 1.9.3 | 31.05.2024
 
 - JavaScript Syntax fix

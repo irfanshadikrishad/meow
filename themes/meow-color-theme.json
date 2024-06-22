@@ -2186,10 +2186,32 @@
     },
     // YAML
     {
+      "scope": "variable.other.read.github-actions-expression",
+      "settings": {
+        "foreground": "#669BBC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "source.github-actions-workflow",
+      "settings": {
+        "foreground": "#118AB2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "string.unquoted.block.yaml",
+      "settings": {
+        "foreground": "#BBAB8B",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "YAML entity name",
       "scope": "entity.name.tag.yaml",
       "settings": {
-        "foreground": "#FF6188"
+        "foreground": "#FF6188",
+        "fontStyle": ""
       }
     },
     {
@@ -2200,7 +2222,8 @@
         "string.unquoted.plain.out.yaml"
       ],
       "settings": {
-        "foreground": "#A9DC76"
+        "foreground": "#A9DC76",
+        "fontStyle": ""
       }
     },
     {
@@ -2211,14 +2234,19 @@
         "constant.numeric.float.yaml"
       ],
       "settings": {
-        "foreground": "#AB9DF2"
+        "foreground": "#AB9DF2",
+        "fontStyle": ""
       }
     },
     {
       "name": "YAML item",
-      "scope": "punctuation.definition.block.sequence.item.yaml",
+      "scope": [
+        "punctuation.definition.block.sequence.item.yaml",
+        "keyword.control.flow.block-scalar.literal.yaml"
+      ],
       "settings": {
-        "foreground": "#78DCE8"
+        "foreground": "#78DCE8",
+        "fontStyle": ""
       }
     },
     {
