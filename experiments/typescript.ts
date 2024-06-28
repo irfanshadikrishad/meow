@@ -76,3 +76,16 @@ class Person {
 // Object
 let person = new Person();
 person.age = 26;
+
+let a = Math.floor(5);
+let b = Math.floor(6);
+// let c = Promise.all();
+
+new Error(`hello error`);
+
+var trigger = "2",
+  regexp = new RegExp("^[1-9]d{0,2}$"),
+  test = regexp.test(trigger);
+alert(test + ""); // will display true
+
+let text = "string";
