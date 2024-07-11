@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### 2.0.3
+
+- fixed some Js syntax
+
 #### 2.0.2
 
 - bug fix (#10) & JavaScript remodeling

@@ -2131,7 +2131,9 @@
         "punctuation.terminator.statement.tsx",
         "keyword.operator.type.annotation.tsx",
         "punctuation.accessor.tsx",
-        "keyword.operator.ternary.js.jsx"
+        "keyword.operator.ternary.js.jsx",
+        "keyword.operator.relational.js.jsx",
+        "keyword.operator.increment.js.jsx"
       ],
       "settings": {
         "foreground": "#303030",
@@ -2166,8 +2168,17 @@
     {
       "scope": "support.function.json.js.jsx",
       "settings": {
-        "foreground": "#8be045",
-        "fontStyle": ""
+        "foreground": "#ADC178",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.language.undefined.js.jsx",
+        "constant.language.null.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#F2CC8F"
       }
     },
     {
@@ -2224,15 +2235,25 @@
     },
     {
       "name": "JavaScript object",
-      "scope": "meta.object-literal.key.js",
+      "scope": [
+        "meta.object-literal.key.js",
+        "variable.object.property.js.jsx"
+      ],
       "settings": {
         "foreground": "#A3A380"
       }
     },
     {
-      "scope": ["support.function.json.js", "variable.other.property.js"],
+      "scope": ["support.function.json.js"],
       "settings": {
         "foreground": "#C2895B"
+      }
+    },
+    {
+      "scope": "variable.other.property.js",
+      "settings": {
+        "foreground": "#84A98C",
+        "fontStyle": "italic"
       }
     },
     {
@@ -2244,7 +2265,7 @@
     {
       "scope": ["variable.other.object.js", "support.constant.json.js"],
       "settings": {
-        "foreground": "#F79D65"
+        "foreground": "#FF9770"
       }
     },
     {
@@ -2266,16 +2287,24 @@
     },
     {
       "name": "JavaScript Variable",
-      "scope": ["variable.other.readwrite.js", "variable.other.constant.js"],
+      "scope": [
+        "variable.other.readwrite.js",
+        "variable.other.constant.js",
+        "keyword.operator.spread.js"
+      ],
       "settings": {
         "foreground": "#FF8C61"
       }
     },
     {
       "name": "JavaScript String",
-      "scope": ["string.quoted.double.js", "string.template.js"],
+      "scope": [
+        "string.quoted.single.js",
+        "string.quoted.double.js",
+        "string.template.js"
+      ],
       "settings": {
-        "foreground": "#FFC857"
+        "foreground": "#A9DC76"
       }
     },
     {
@@ -2297,7 +2326,12 @@
         "keyword.operator.comparison.js",
         "punctuation.accessor.optional.js",
         "keyword.operator.assignment.compound.js",
-        "keyword.operator.arithmetic.js"
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.logical.js",
+        "keyword.operator.relational.js",
+        "keyword.operator.logical.js.jsx",
+        "punctuation.destructuring.js.jsx",
+        "keyword.operator.ternary.js"
       ],
       "settings": {
         "foreground": "#303030",
@@ -2326,6 +2360,83 @@
       "scope": "keyword.operator.new.js",
       "settings": {
         "foreground": "#E26D5C"
+      }
+    },
+    {
+      "scope": "support.variable.property.importmeta.js.jsx",
+      "settings": {
+        "foreground": "#FF9671"
+      }
+    },
+    {
+      "scope": "variable.other.object.property.js.jsx",
+      "settings": {
+        "foreground": "#E1AA7D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "variable.other.constant.property.js.jsx",
+      "settings": {
+        "foreground": "#845EC2"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.js.jsx",
+      "settings": {
+        "foreground": "#BE8A60"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite.js.jsx",
+        "keyword.operator.spread.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#81B29A"
+      }
+    },
+    {
+      "scope": "keyword.control.default.js",
+      "settings": {
+        "foreground": "#4CC9F0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.jsx.children.js.jsx",
+      "settings": {
+        "foreground": "#606060"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.js",
+      "settings": {
+        "foreground": "#BE8A60"
+      }
+    },
+    {
+      "scope": "variable.other.object.property.js",
+      "settings": {
+        "foreground": "#E1AA7D"
+      }
+    },
+    {
+      "scope": "variable.other.constant.object.js",
+      "settings": {
+        "foreground": "#99C1B9"
+      }
+    },
+    {
+      "scope": ["constant.language.undefined.js", "constant.language.null.js"],
+      "settings": {
+        "foreground": "#8B8C89"
+      }
+    },
+    {
+      "scope": "support.class.promise.js",
+      "settings": {
+        "foreground": "#A3CEF1"
       }
     }
   ]
