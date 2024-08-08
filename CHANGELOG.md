@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### 2.1.0
+
+- Syntax color change
+
 #### 2.0.3
 
 - fixed some Js syntax
