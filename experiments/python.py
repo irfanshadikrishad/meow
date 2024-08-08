@@ -1,9 +1,9 @@
-from .moduleY import spam
-from .moduleY import spam as ham
+from .moduleY import spam # type: ignore
+from .moduleY import spam as ham  # type: ignore
 from . import moduleY
-from ..subpackage1 import moduleY
-from ..subpackage2.moduleZ import eggs
-from ..moduleA import foo
+from ..subpackage1 import moduleY # type: ignore
+from ..subpackage2.moduleZ import eggs # type: ignore
+from ..moduleA import foo # type: ignore
 
 str1 = "Race"
 str2 = "Care"
@@ -29,6 +29,6 @@ else:
     print(str1 + " and " + str2 + " are not anagram.")
 
 
-def regret(){
-    sort = 1+2
-}
+def regret():
+    sort = 1+2;
+
