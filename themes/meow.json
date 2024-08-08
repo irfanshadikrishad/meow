@@ -464,9 +464,15 @@
     },
     {
       "name": "js variable readwrite",
-      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+      "scope": "variable.other.readwrite, meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "scope": "variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#56b6c2"
       }
     },
     {
@@ -2078,7 +2084,12 @@
       }
     },
     {
-      "scope": ["meta.jsx.children.js", "text.html.derivative"],
+      "name": "text",
+      "scope": [
+        "meta.jsx.children.js",
+        "text.html.derivative",
+        "meta.jsx.children.tsx"
+      ],
       "settings": { "foreground": "#D3D0CB" }
     },
     {
@@ -2137,7 +2148,10 @@
         "punctuation.comma.rust",
         "keyword.operator.ternary.swift",
         "keyword.operator.custom.infix.swift",
-        "punctuation.separator.argument-label.swift"
+        "punctuation.separator.argument-label.swift",
+        "punctuation.accessor.tsx",
+        "punctuation.accessor.optional.tsx",
+        "keyword.operator.assignment"
       ],
       "settings": {
         "foreground": "#454545"
