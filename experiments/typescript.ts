@@ -16,7 +16,7 @@ const car: { type: string; model: string; year: number } = {
   year: 2009,
 };
 
-function logMessage(message: string): void {
+function logMessage(message: string, name?: string): void {
   console.log(message);
 }
 

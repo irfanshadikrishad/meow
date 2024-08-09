@@ -42,8 +42,8 @@
                 "level7c": "value7",
                 "level7d": "value7",
                 "level7e": {
-                  "level8": "value8",
-                  "level8a": "value8",
+                  "level8": ["1", "2", "3"],
+                  "level8a": { "a": "1", "b": "2" },
                   "level8b": "value8",
                   "level8c": "value8",
                   "level8d": "value8",
