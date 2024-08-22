@@ -132,7 +132,14 @@
     "titleBar.activeForeground": "#B6BBC4",
     "titleBar.border": "#03040f",
     "titleBar.inactiveBackground": "#03040f",
-    "titleBar.inactiveForeground": "#B6BBC4"
+    "titleBar.inactiveForeground": "#B6BBC4",
+    "editorBracketHighlight.foreground1": "#ff6189",
+    "editorBracketHighlight.foreground2": "#ff6189",
+    "editorBracketHighlight.foreground3": "#ff6189",
+    "editorBracketHighlight.foreground4": "#ff6189",
+    "editorBracketHighlight.foreground5": "#ff6189",
+    "editorBracketHighlight.foreground6": "#ff6189",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#3DC2EC"
   },
   "tokenColors": [
     {
@@ -435,7 +442,6 @@
         "source.cs",
         "source.python",
         "source.r",
-        "source.sql",
         "source.swift",
         "storage.modifier.reference.cpp",
         "storage.type.function.arrow.js",
@@ -449,7 +455,8 @@
         "variable.other.rust",
         "variable.parameter.tsx",
         "keyword.type.void.cs",
-        "keyword.operator.comparison.js"
+        "keyword.operator.comparison.js",
+        "entity.name.function.sql"
       ],
       "settings": { "foreground": "#ECB365" }
     },
@@ -457,7 +464,6 @@
       "name": "Pistachio",
       "scope": [
         "constant.numeric.decimal.tsx",
-        "storage.type.sql",
         "string",
         "string.quoted.double.css",
         "string.quoted.double.html",
@@ -472,6 +478,14 @@
         "string.unquoted.plain.out.yaml"
       ],
       "settings": { "foreground": "#98c379" }
+    },
+    {
+      "name": "Pistachio Italic",
+      "scope": ["storage.type.sql"],
+      "settings": {
+        "foreground": "#98c379",
+        "fontStyle": "italic"
+      }
     },
     {
       "name": "Picton Blue",
@@ -512,7 +526,6 @@
         "entity.name.function.r",
         "entity.name.function.rust",
         "entity.name.function.shell",
-        "entity.name.function.sql",
         "entity.name.function.support.builtin.go",
         "entity.name.function.tsx",
         "entity.name.type.alias.tsx",
@@ -562,7 +575,9 @@
         "variable.other.assignment.shell",
         "variable.other.readwrite.alias.tsx",
         "variable.parameter.keyframe-list.css",
-        "entity.name.type.class.tsx"
+        "entity.name.type.class.tsx",
+        "punctuation.separator.key-value.ini",
+        "source.sql"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
@@ -588,7 +603,10 @@
         "support.function.r",
         "support.variable.property.js",
         "support.variable.property.tsx",
-        "variable.other.property.tsx"
+        "variable.other.property.tsx",
+        "comment.line.shebang.tsx",
+        "comment.line.shebang.js",
+        "meta.shebang.shell"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -657,6 +675,20 @@
       ],
       "settings": {
         "foreground": "#B99470"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": ["markup.bold.markdown"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Italic",
+      "scope": ["markup.italic.markdown"],
+      "settings": {
+        "fontStyle": "italic"
       }
     }
   ]

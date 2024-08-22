@@ -1,3 +1,4 @@
+# to-be-ignored
 .vscode/**
 .vscode-test/**
 .gitignore

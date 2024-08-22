@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // Variable declarations
 let number = 10;
 const pi = 3.14159;
