@@ -1,2 +1,49 @@
 # Set default behavior to automatically normalize line endings.
 * text=auto
+
+# Force text files to have Unix-style LF endings
+*.sh text eol=lf
+*.bash text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Ensure consistent line endings for Windows-style CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Treat all files with the following extensions as binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.exe binary
+*.dll binary
+
+# Handle specific file types differently
+*.txt text diff
+*.json text diff
+*.xml text diff
+*.html text diff
+
+# Ignore line ending normalization for certain files
+*.zip -text
+*.tar.gz -text
+*.tar.bz2 -text
+
+# Force diff for certain file types, even if they are binary
+*.pdf diff
+*.doc diff
+*.docx diff
+
+# Exclude certain directories from Git processing
+node_modules/* -text
+dist/* -text
+build/* -text
+
+# Custom settings for specific files
+/path/to/specific/file.txt text eol=lf
+/path/to/another/file.bat text eol=crlf
+
+# Set attributes for all files in a directory
+subdir/* text eol=lf

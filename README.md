@@ -14,7 +14,7 @@ report any issues, bugs or suggestions [here](https://github.com/irfanshadikrish
 
 <details>
 <summary>Meow</summary>
-    <img src="assets/preview/meow-2.0.1.JPG"/>
+    <img src="assets/preview/meow_1.png"/>
 </details>
 
 #### _Installation_
