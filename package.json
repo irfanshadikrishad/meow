@@ -4,7 +4,7 @@
   "description": "Fresh and clean user interface, code with no distraction. Meow in the darkness.",
   "publisher": "irfanshadikrishad",
   "icon": "images/meow.png",
-  "version": "2.1.2",
+  "version": "3.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/irfanshadikrishad/meow"
