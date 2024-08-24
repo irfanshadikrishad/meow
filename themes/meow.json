@@ -163,7 +163,6 @@
         "keyword.operator.assignment.python",
         "keyword.operator.assignment.shell",
         "keyword.operator.assignment.tsx",
-        "keyword.operator.comparison.r",
         "keyword.operator.comparison.tsx",
         "keyword.operator.custom.infix.swift",
         "keyword.operator.logical.tsx",
@@ -217,7 +216,10 @@
         "punctuation.terminator.statement.semicolon.shell",
         "punctuation.terminator.statement.tsx",
         "punctuation.separator.dictionary.key-value.json",
-        "punctuation.separator.dictionary.pair.json"
+        "punctuation.separator.dictionary.pair.json",
+        "keyword.operator.combinator.css",
+        "keyword.operator.bitwise.shift.cpp",
+        "meta.embedded.block.json"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -377,7 +379,19 @@
         "keyword.other.using.directive.cpp",
         "storage.modifier.java",
         "storage.modifier.virtual.cpp",
-        "keyword.control.conditional.tsx"
+        "keyword.control.conditional.tsx",
+        "keyword.control.try.cpp",
+        "keyword.control.catch.cpp",
+        "keyword.operator.delete.cpp",
+        "storage.type.built-in.cpp",
+        "keyword.operator.wordlike.cpp",
+        "keyword.operator.assignment.r",
+        "keyword.operator.comparison.r",
+        "keyword.operator.assignment.equal.rust",
+        "keyword.operator.comparison.rust",
+        "keyword.operator.c",
+        "keyword.operator.comparison.c",
+        "keyword.operator.assignment.c"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -406,6 +420,7 @@
         "entity.name.variable.parameter.cs",
         "entity.other.attribute-name.class.css",
         "entity.other.attribute-name.html",
+        "invalid.deprecated.entity.other.attribute-name.html",
         "entity.other.attribute-name.id.css",
         "entity.name.type.module.tsx",
         "keyword.operator.arithmetic.go",
@@ -414,17 +429,14 @@
         "keyword.operator.arithmetic.shell",
         "keyword.operator.arithmetic.tsx",
         "keyword.operator.assignment.compound.tsx",
-        "keyword.operator.assignment.equal.rust",
         "keyword.operator.assignment.go",
         "keyword.operator.assignment.java",
         "keyword.operator.assignment.js",
         "keyword.operator.assignment.php",
-        "keyword.operator.assignment.r",
         "keyword.operator.assignment.rust",
         "keyword.operator.assignment.tsx",
         "keyword.operator.class.php",
         "keyword.operator.comparison.php",
-        "keyword.operator.comparison.rust",
         "keyword.operator.increment.js",
         "keyword.operator.increment.tsx",
         "keyword.operator.key.php",
@@ -577,9 +589,17 @@
         "variable.parameter.keyframe-list.css",
         "entity.name.type.class.tsx",
         "punctuation.separator.key-value.ini",
-        "source.sql"
+        "source.sql",
+        "entity.name.type.cpp",
+        "entity.name.function.member.cpp",
+        "entity.name.function.call.cpp"
       ],
       "settings": { "foreground": "#3dc2ec" }
+    },
+    {
+      "name": "Picton Blue Italic",
+      "scope": ["entity.other.attribute-name.pseudo-element.css"],
+      "settings": { "foreground": "#3dc2ec", "fontStyle": "italic" }
     },
     {
       "name": "Burnt Sienna",
@@ -606,10 +626,20 @@
         "variable.other.property.tsx",
         "comment.line.shebang.tsx",
         "comment.line.shebang.js",
-        "meta.shebang.shell"
+        "meta.shebang.shell",
+        "variable.other.object.access.cpp",
+        "punctuation.separator.dot-access.cpp"
       ],
       "settings": {
         "foreground": "#E76F51"
+      }
+    },
+    {
+      "name": "Burnt Sienna Italic",
+      "scope": ["markup.inline.raw.string.markdown"],
+      "settings": {
+        "foreground": "#E76F51",
+        "fontStyle": "italic"
       }
     },
     {
@@ -649,7 +679,9 @@
         "meta.property-name.css",
         "keyword.operator.ellipsis.go",
         "keyword.other.default.destructor.cpp",
-        "keyword.type.int.cs"
+        "keyword.type.int.cs",
+        "constant.numeric.decimal.c",
+        "constant.numeric.integer.shell"
       ],
       "settings": {
         "foreground": "#6DA4AA"
@@ -659,19 +691,18 @@
       "name": "Camel",
       "scope": [
         "constant.language.php",
-        "constant.numeric.decimal.c",
         "constant.numeric.decimal.cs",
         "constant.numeric.decimal.go",
         "constant.numeric.decimal.java",
         "constant.numeric.decimal.js",
         "constant.numeric.decimal.php",
         "constant.numeric.integer.decimal.swift",
-        "constant.numeric.integer.shell",
         "meta.property-value.css",
         "meta.scope.logical-expression.shell",
         "support.constant.property-value.css",
         "support.constant.std.php",
-        "keyword.operator.arithmetic.php"
+        "keyword.operator.arithmetic.php",
+        "constant.numeric.css"
       ],
       "settings": {
         "foreground": "#B99470"

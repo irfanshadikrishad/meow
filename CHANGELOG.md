@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### 3.0.3
+
+- Syntax improved for CSS, C, Markdown & GO
+
 #### 3.0.2
 
 - Brackets, Markdown, SHEBANG & SQL improved

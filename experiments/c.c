@@ -12,14 +12,16 @@
 #define PI 3.14159
 #define BUFFER_SIZE 1024
 
-struct threeNum
+struct threeNumber
 {
    int n1, n2, n3;
    float g1;
+   double c1;
 };
 
 void printHelloWorld() {
     printf("Hello, World!\n");
+    printf(`Hello, World`) // no scope available
 }
 
 int factorial(int n) {

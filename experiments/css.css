@@ -29,6 +29,19 @@ body {
   line-height: 1.6;
 }
 
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
 /* Styles for a class with various properties */
 .classname {
   font-size: 1rem;
@@ -63,6 +76,19 @@ input {
   border: 1px solid #bdc3c7;
   border-radius: var(--border-radius);
   padding: 0.5rem;
+}
+
+input::placeholder {
+  background-color: transparent;
+}
+
+button:hover {
+  color: #007bff;
+}
+
+.animate-content > p {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 /* Media query for responsive design */
