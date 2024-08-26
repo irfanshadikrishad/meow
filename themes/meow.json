@@ -23,13 +23,6 @@
     "dropdown.background": "#03040f",
     "dropdown.listBackground": "#03040f",
     "editor.background": "#03040f",
-    "editor.bracketHighlight.foreground1": "#C69749",
-    "editor.bracketHighlight.foreground2": "#C69749",
-    "editor.bracketHighlight.foreground3": "#C69749",
-    "editor.bracketHighlight.foreground4": "#C69749",
-    "editor.bracketHighlight.foreground5": "#C69749",
-    "editor.bracketHighlight.foreground6": "#C69749",
-    "editor.bracketHighlight.unexpectedBracket.foreground": "#FE5D9F",
     "editor.bracketMatch.background": "#2B2C28",
     "editor.bracketMatch.border": "#2B2C28",
     "editor.cursor.background": "#ff6189",
@@ -49,8 +42,8 @@
     "editor.indentGuide.background4": "#131515",
     "editor.indentGuide.background5": "#131515",
     "editor.indentGuide.background6": "#131515",
-    "editor.lineNumber.activeForeground": "#ff6189",
-    "editor.lineNumber.foreground": "#45474B",
+    "editorLineNumber.foreground": "#45474B",
+    "editorLineNumber.activeForeground": "#ff6189",
     "editor.selectionBackground": "#060d18b2",
     "editorSuggestWidget.background": "#03040f",
     "editorSuggestWidget.focusHighlightForeground": "#03040f",
@@ -139,7 +132,9 @@
     "editorBracketHighlight.foreground4": "#ff6189",
     "editorBracketHighlight.foreground5": "#ff6189",
     "editorBracketHighlight.foreground6": "#ff6189",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#3DC2EC"
+    "editorBracketHighlight.unexpectedBracket.foreground": "#3DC2EC",
+    "editorIndentGuide.background": "#151515",
+    "editorIndentGuide.activeBackground": "#45474B"
   },
   "tokenColors": [
     {
@@ -219,7 +214,18 @@
         "punctuation.separator.dictionary.pair.json",
         "keyword.operator.combinator.css",
         "keyword.operator.bitwise.shift.cpp",
-        "meta.embedded.block.json"
+        "meta.embedded.block.json",
+        "punctuation.separator.list.comma.css",
+        "keyword.operator.type.annotation.js.jsx",
+        "keyword.operator.assignment.js.jsx",
+        "keyword.operator.logical.js.jsx",
+        "keyword.operator.ternary.js.jsx",
+        "meta.embedded.expression.tsx",
+        "punctuation.accessor.js.jsx",
+        "keyword.operator.comparison.js.jsx",
+        "keyword.operator.assignment.compound.tsx",
+        "keyword.operator.arithmetic.tsx",
+        "storage.type.function.arrow.tsx"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -264,7 +270,6 @@
         "keyword.control.fi.shell",
         "keyword.control.flow.js",
         "keyword.control.flow.python",
-        "keyword.control.flow.tsx",
         "keyword.control.for.shell",
         "keyword.control.from.tsx",
         "keyword.control.go",
@@ -323,7 +328,6 @@
         "source.ini",
         "storage.modifier.abstract.cs",
         "storage.modifier.async.cs",
-        "storage.modifier.async.tsx",
         "storage.modifier.const.cs",
         "storage.modifier.extern.cs",
         "storage.modifier.internal.cs",
@@ -391,7 +395,18 @@
         "keyword.operator.comparison.rust",
         "keyword.operator.c",
         "keyword.operator.comparison.c",
-        "keyword.operator.assignment.c"
+        "keyword.operator.assignment.c",
+        "keyword.control.import.js.jsx",
+        "keyword.control.from.js.jsx",
+        "keyword.control.export.js.jsx",
+        "entity.name.tag.js.jsx",
+        "punctuation.definition.tag.begin.js.jsx",
+        "punctuation.definition.tag.end.js.jsx",
+        "storage.modifier.async.tsx",
+        "keyword.control.flow.tsx",
+        "variable.other.assignment.shell",
+        "keyword.control.export.js",
+        "keyword.other.definition.ini"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -404,7 +419,12 @@
         "storage.type.property.tsx",
         "storage.type.namespace.directive.cpp",
         "storage.type.primitive.java",
-        "storage.type.built-in.primitive.cpp"
+        "storage.type.built-in.primitive.cpp",
+        "keyword.control.default.js.jsx",
+        "storage.modifier.async.js.jsx",
+        "keyword.control.flow.js.jsx",
+        "keyword.control.default.js",
+        "storage.type.class.jsdoc"
       ],
       "settings": {
         "foreground": "#ff6189",
@@ -423,18 +443,16 @@
         "invalid.deprecated.entity.other.attribute-name.html",
         "entity.other.attribute-name.id.css",
         "entity.name.type.module.tsx",
+        "entity.name.type.module.js.jsx",
         "keyword.operator.arithmetic.go",
         "keyword.operator.arithmetic.js",
         "keyword.operator.arithmetic.r",
         "keyword.operator.arithmetic.shell",
-        "keyword.operator.arithmetic.tsx",
-        "keyword.operator.assignment.compound.tsx",
         "keyword.operator.assignment.go",
         "keyword.operator.assignment.java",
         "keyword.operator.assignment.js",
         "keyword.operator.assignment.php",
         "keyword.operator.assignment.rust",
-        "keyword.operator.assignment.tsx",
         "keyword.operator.class.php",
         "keyword.operator.comparison.php",
         "keyword.operator.increment.js",
@@ -457,7 +475,6 @@
         "source.swift",
         "storage.modifier.reference.cpp",
         "storage.type.function.arrow.js",
-        "storage.type.function.arrow.tsx",
         "variable",
         "variable.object.property.tsx",
         "variable.other.constant.tsx",
@@ -468,7 +485,10 @@
         "variable.parameter.tsx",
         "keyword.type.void.cs",
         "keyword.operator.comparison.js",
-        "entity.name.function.sql"
+        "entity.name.function.sql",
+        "constant.language.boolean.true.tsx",
+        "constant.language.boolean.false.tsx",
+        "keyword.operator.spread.tsx"
       ],
       "settings": { "foreground": "#ECB365" }
     },
@@ -487,7 +507,8 @@
         "string.quoted.single.html",
         "string.quoted.single.tsx",
         "string.template.tsx",
-        "string.unquoted.plain.out.yaml"
+        "string.unquoted.plain.out.yaml",
+        "source.ini"
       ],
       "settings": { "foreground": "#98c379" }
     },
@@ -539,7 +560,6 @@
         "entity.name.function.rust",
         "entity.name.function.shell",
         "entity.name.function.support.builtin.go",
-        "entity.name.function.tsx",
         "entity.name.type.alias.tsx",
         "entity.name.type.class.cpp",
         "entity.name.type.class.cs",
@@ -584,21 +604,24 @@
         "support.function.string.php",
         "support.function.swift",
         "support.function.url.css",
-        "variable.other.assignment.shell",
         "variable.other.readwrite.alias.tsx",
         "variable.parameter.keyframe-list.css",
         "entity.name.type.class.tsx",
-        "punctuation.separator.key-value.ini",
         "source.sql",
         "entity.name.type.cpp",
         "entity.name.function.member.cpp",
-        "entity.name.function.call.cpp"
+        "entity.name.function.call.cpp",
+        "entity.other.attribute-name.js.jsx"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
     {
       "name": "Picton Blue Italic",
-      "scope": ["entity.other.attribute-name.pseudo-element.css"],
+      "scope": [
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.name.function.tsx",
+        "entity.name.function.js.jsx"
+      ],
       "settings": { "foreground": "#3dc2ec", "fontStyle": "italic" }
     },
     {
@@ -628,7 +651,9 @@
         "comment.line.shebang.js",
         "meta.shebang.shell",
         "variable.other.object.access.cpp",
-        "punctuation.separator.dot-access.cpp"
+        "punctuation.separator.dot-access.cpp",
+        "variable.other.property.js.jsx",
+        "variable.other.constant.property.tsx"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -645,8 +670,6 @@
     {
       "name": "Crystal Blue",
       "scope": [
-        "constant.language.boolean.false.tsx",
-        "constant.language.boolean.true.tsx",
         "constant.language.null.tsx",
         "constant.language.undefined.tsx",
         "constant.numeric.decimal.cpp",
@@ -681,7 +704,9 @@
         "keyword.other.default.destructor.cpp",
         "keyword.type.int.cs",
         "constant.numeric.decimal.c",
-        "constant.numeric.integer.shell"
+        "constant.numeric.integer.shell",
+        "support.type.builtin.tsx",
+        "meta.structure.dictionary.value.json"
       ],
       "settings": {
         "foreground": "#6DA4AA"
@@ -702,7 +727,10 @@
         "support.constant.property-value.css",
         "support.constant.std.php",
         "keyword.operator.arithmetic.php",
-        "constant.numeric.css"
+        "constant.numeric.css",
+        "constant.language.boolean.true.js.jsx",
+        "constant.language.boolean.false.js.jsx",
+        "constant.language.boolean.false.js"
       ],
       "settings": {
         "foreground": "#B99470"
@@ -720,6 +748,13 @@
       "scope": ["markup.italic.markdown"],
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Morning Blue",
+      "scope": ["comment.block.documentation.tsx"],
+      "settings": {
+        "foreground": "#84A98C"
       }
     }
   ]

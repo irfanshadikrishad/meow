@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### 3.0.4
+
+- fixed some known bugs
+
 #### 3.0.3
 
 - Syntax improved for CSS, C, Markdown & GO
