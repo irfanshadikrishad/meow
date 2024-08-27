@@ -48,9 +48,9 @@
     "editorSuggestWidget.background": "#03040f",
     "editorSuggestWidget.focusHighlightForeground": "#03040f",
     "editorSuggestWidget.highlightForeground": "#ff6189",
-    "editor.widget.background": "#03040f",
-    "editor.widget.border": "#1b1b1b",
-    "editor.widget.foreground": "#B6BBC4",
+    "editorWidget.background": "#03040f",
+    "editorWidget.border": "#1b1b1b",
+    "editorWidget.foreground": "#B6BBC4",
     "editorError.foreground": "#FE5D9F",
     "editorGroup.border": "#1b1b1b",
     "editorGroupHeader.tabsBackground": "#03040f",
@@ -220,12 +220,15 @@
         "keyword.operator.assignment.js.jsx",
         "keyword.operator.logical.js.jsx",
         "keyword.operator.ternary.js.jsx",
-        "meta.embedded.expression.tsx",
         "punctuation.accessor.js.jsx",
         "keyword.operator.comparison.js.jsx",
         "keyword.operator.assignment.compound.tsx",
         "keyword.operator.arithmetic.tsx",
-        "storage.type.function.arrow.tsx"
+        "storage.type.function.arrow.tsx",
+        "keyword.operator.assignment.js",
+        "punctuation.separator.period.java",
+        "punctuation.separator.java",
+        "punctuation.other.period.go"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -406,7 +409,9 @@
         "keyword.control.flow.tsx",
         "variable.other.assignment.shell",
         "keyword.control.export.js",
-        "keyword.other.definition.ini"
+        "keyword.other.definition.ini",
+        "punctuation.definition.typeparameters.begin.js.jsx",
+        "punctuation.definition.typeparameters.end.js.jsx"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -439,18 +444,15 @@
         "entity.name.variable.local.cs",
         "entity.name.variable.parameter.cs",
         "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.html",
         "invalid.deprecated.entity.other.attribute-name.html",
         "entity.other.attribute-name.id.css",
         "entity.name.type.module.tsx",
-        "entity.name.type.module.js.jsx",
         "keyword.operator.arithmetic.go",
         "keyword.operator.arithmetic.js",
         "keyword.operator.arithmetic.r",
         "keyword.operator.arithmetic.shell",
         "keyword.operator.assignment.go",
         "keyword.operator.assignment.java",
-        "keyword.operator.assignment.js",
         "keyword.operator.assignment.php",
         "keyword.operator.assignment.rust",
         "keyword.operator.class.php",
@@ -467,8 +469,6 @@
         "meta.method.body.java",
         "meta.method-call.java",
         "punctuation.accessor.js",
-        "punctuation.other.period.go",
-        "punctuation.separator.period.java",
         "source.cs",
         "source.python",
         "source.r",
@@ -488,7 +488,8 @@
         "entity.name.function.sql",
         "constant.language.boolean.true.tsx",
         "constant.language.boolean.false.tsx",
-        "keyword.operator.spread.tsx"
+        "keyword.operator.spread.tsx",
+        "entity.other.attribute-name.html"
       ],
       "settings": { "foreground": "#ECB365" }
     },
@@ -611,17 +612,16 @@
         "entity.name.type.cpp",
         "entity.name.function.member.cpp",
         "entity.name.function.call.cpp",
-        "entity.other.attribute-name.js.jsx"
+        "entity.other.attribute-name.js.jsx",
+        "variable.other.readwrite.alias.js.jsx",
+        "entity.name.function.tsx",
+        "entity.name.function.js.jsx"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
     {
       "name": "Picton Blue Italic",
-      "scope": [
-        "entity.other.attribute-name.pseudo-element.css",
-        "entity.name.function.tsx",
-        "entity.name.function.js.jsx"
-      ],
+      "scope": ["entity.other.attribute-name.pseudo-element.css"],
       "settings": { "foreground": "#3dc2ec", "fontStyle": "italic" }
     },
     {
@@ -661,7 +661,10 @@
     },
     {
       "name": "Burnt Sienna Italic",
-      "scope": ["markup.inline.raw.string.markdown"],
+      "scope": [
+        "markup.inline.raw.string.markdown",
+        "constant.character.entity.tsx"
+      ],
       "settings": {
         "foreground": "#E76F51",
         "fontStyle": "italic"
@@ -706,7 +709,10 @@
         "constant.numeric.decimal.c",
         "constant.numeric.integer.shell",
         "support.type.builtin.tsx",
-        "meta.structure.dictionary.value.json"
+        "meta.structure.dictionary.value.json",
+        "meta.at-rule.media.header.css",
+        "entity.name.type.js.jsx",
+        "entity.name.type.module.js.jsx"
       ],
       "settings": {
         "foreground": "#6DA4AA"
@@ -752,7 +758,10 @@
     },
     {
       "name": "Morning Blue",
-      "scope": ["comment.block.documentation.tsx"],
+      "scope": [
+        "comment.block.documentation.tsx",
+        "markup.strikethrough.markdown"
+      ],
       "settings": {
         "foreground": "#84A98C"
       }

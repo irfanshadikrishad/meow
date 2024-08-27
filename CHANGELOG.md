@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### 3.0.5
+
+- fixed widget background
+
 #### 3.0.4
 
 - fixed some known bugs
