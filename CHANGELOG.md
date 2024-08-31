@@ -1,6 +1,10 @@
 # CHANGELOG
 
-#### 3.0.5
+#### 3.0.7
+
+- bug fix on typescript
+
+#### 3.0.6
 
 - fixed CSS, Markdown & Typescript
 

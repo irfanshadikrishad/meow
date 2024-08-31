@@ -230,7 +230,23 @@
         "punctuation.separator.java",
         "punctuation.other.period.go",
         "keyword.operator.pattern.css",
-        "punctuation.accessor.js"
+        "punctuation.accessor.js",
+        "meta.object.member.tsx",
+        "meta.embedded.expression.tsx",
+        "punctuation.separator.key-value.scss",
+        "punctuation.separator.delimiter.scss",
+        "punctuation.terminator.rule.scss",
+        "keyword.operator.scss",
+        "keyword.operator.css",
+        "keyword.operator.assignment.ts",
+        "punctuation.separator.comma.ts",
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.logical.js",
+        "keyword.operator.comparison.js",
+        "storage.type.function.arrow.js",
+        "punctuation.accessor.optional.js",
+        "punctuation.destructuring.js",
+        "keyword.operator.spread.js"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -416,7 +432,21 @@
         "punctuation.definition.typeparameters.end.js.jsx",
         "keyword.operator.expression.of.tsx",
         "entity.other.keyframe-offset.percentage.css",
-        "support.type.object.module.js"
+        "support.type.object.module.js",
+        "keyword.control.at-rule.use.scss",
+        "keyword.control.operator",
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.export.ts",
+        "storage.type.ts",
+        "meta.object-literal.key.ts",
+        "punctuation.definition.block.ts",
+        "meta.brace.square.ts",
+        "keyword.control.at-rule.import.scss",
+        "keyword.control.import.ts",
+        "keyword.control.from.ts",
+        "storage.type.interface.ts",
+        "storage.modifier.async.js",
+        "keyword.operator.expression.typeof.js"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -434,7 +464,8 @@
         "storage.modifier.async.js.jsx",
         "keyword.control.flow.js.jsx",
         "keyword.control.default.js",
-        "storage.type.class.jsdoc"
+        "storage.type.class.jsdoc",
+        "support.function.misc.scss"
       ],
       "settings": {
         "foreground": "#ff6189",
@@ -478,7 +509,6 @@
         "source.r",
         "source.swift",
         "storage.modifier.reference.cpp",
-        "storage.type.function.arrow.js",
         "variable",
         "variable.object.property.tsx",
         "variable.other.constant.tsx",
@@ -488,7 +518,6 @@
         "variable.other.rust",
         "variable.parameter.tsx",
         "keyword.type.void.cs",
-        "keyword.operator.comparison.js",
         "entity.name.function.sql",
         "constant.language.boolean.true.tsx",
         "constant.language.boolean.false.tsx",
@@ -621,7 +650,10 @@
         "entity.name.function.tsx",
         "entity.name.function.js.jsx",
         "constant.language.import-export-all.tsx",
-        "entity.other.attribute-name.css"
+        "entity.other.attribute-name.css",
+        "entity.name.function.scss",
+        "meta.embedded.block.scss",
+        "entity.name.type.interface.ts"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
