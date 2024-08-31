@@ -246,7 +246,17 @@
         "storage.type.function.arrow.js",
         "punctuation.accessor.optional.js",
         "punctuation.destructuring.js",
-        "keyword.operator.spread.js"
+        "keyword.operator.spread.js",
+        "meta.function.method.with-arguments.ruby",
+        "keyword.operator.comparison.ruby",
+        "keyword.operator.arithmetic.ruby",
+        "punctuation.separator.object.ruby",
+        "punctuation.definition.constant.ruby",
+        "keyword.operator.assignment.ruby",
+        "support.function.kernel.lambda.ruby",
+        "punctuation.separator.method.ruby",
+        "keyword.operator.other.ruby",
+        "punctuation.separator.namespace.ruby"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -446,7 +456,12 @@
         "keyword.control.from.ts",
         "storage.type.interface.ts",
         "storage.modifier.async.js",
-        "keyword.operator.expression.typeof.js"
+        "keyword.operator.expression.typeof.js",
+        "keyword.control.lua",
+        "keyword.control.def.ruby",
+        "keyword.control.ruby",
+        "keyword.control.class.ruby",
+        "keyword.control.pseudo-method.ruby"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -522,7 +537,11 @@
         "constant.language.boolean.true.tsx",
         "constant.language.boolean.false.tsx",
         "keyword.operator.spread.tsx",
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "support.function.lua",
+        "source.lua",
+        "keyword.operator.lua",
+        "source.ruby"
       ],
       "settings": { "foreground": "#ECB365" }
     },
@@ -653,13 +672,19 @@
         "entity.other.attribute-name.css",
         "entity.name.function.scss",
         "meta.embedded.block.scss",
-        "entity.name.type.interface.ts"
+        "entity.name.type.interface.ts",
+        "entity.name.function.lua",
+        "entity.name.function.ruby",
+        "entity.name.type.class.ruby"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
     {
       "name": "Picton Blue Italic",
-      "scope": ["entity.other.attribute-name.pseudo-element.css"],
+      "scope": [
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.inherited-class.ruby"
+      ],
       "settings": { "foreground": "#3dc2ec", "fontStyle": "italic" }
     },
     {
@@ -691,7 +716,11 @@
         "variable.other.object.access.cpp",
         "punctuation.separator.dot-access.cpp",
         "variable.other.property.js.jsx",
-        "variable.other.constant.property.tsx"
+        "variable.other.constant.property.tsx",
+        "support.function.library.lua",
+        "constant.language.lua",
+        "support.function.kernel.ruby",
+        "keyword.other.special-method.ruby"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -701,7 +730,10 @@
       "name": "Burnt Sienna Italic",
       "scope": [
         "markup.inline.raw.string.markdown",
-        "constant.character.entity.tsx"
+        "constant.character.entity.tsx",
+        "entity.other.attribute.lua",
+        "support.class.ruby",
+        "constant.language.ruby"
       ],
       "settings": {
         "foreground": "#E76F51",
@@ -775,7 +807,8 @@
         "constant.language.boolean.true.js.jsx",
         "constant.language.boolean.false.js.jsx",
         "constant.language.boolean.false.js",
-        "constant.language.boolean.true.js"
+        "constant.language.boolean.true.js",
+        "constant.numeric.integer.ruby"
       ],
       "settings": {
         "foreground": "#B99470"
@@ -800,7 +833,9 @@
       "scope": [
         "comment.block.documentation.tsx",
         "markup.strikethrough.markdown",
-        "markup.table.markdown"
+        "markup.table.markdown",
+        "constant.numeric.float.lua",
+        "constant.other.symbol.ruby"
       ],
       "settings": {
         "foreground": "#84A98C"

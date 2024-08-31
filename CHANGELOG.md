@@ -2,7 +2,9 @@
 
 #### 3.0.7
 
-- bug fix on typescript
+- fixes #15
+- supports lua
+- supports ruby
 
 #### 3.0.6
 
