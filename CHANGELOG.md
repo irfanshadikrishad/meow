@@ -2,6 +2,10 @@
 
 #### 3.0.5
 
+- fixed CSS, Markdown & Typescript
+
+#### 3.0.5
+
 - fixed widget background
 
 #### 3.0.4

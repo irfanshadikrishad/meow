@@ -228,7 +228,9 @@
         "keyword.operator.assignment.js",
         "punctuation.separator.period.java",
         "punctuation.separator.java",
-        "punctuation.other.period.go"
+        "punctuation.other.period.go",
+        "keyword.operator.pattern.css",
+        "punctuation.accessor.js"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -411,7 +413,10 @@
         "keyword.control.export.js",
         "keyword.other.definition.ini",
         "punctuation.definition.typeparameters.begin.js.jsx",
-        "punctuation.definition.typeparameters.end.js.jsx"
+        "punctuation.definition.typeparameters.end.js.jsx",
+        "keyword.operator.expression.of.tsx",
+        "entity.other.keyframe-offset.percentage.css",
+        "support.type.object.module.js"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -468,7 +473,6 @@
         "meta.function-call.arguments.python",
         "meta.method.body.java",
         "meta.method-call.java",
-        "punctuation.accessor.js",
         "source.cs",
         "source.python",
         "source.r",
@@ -615,7 +619,9 @@
         "entity.other.attribute-name.js.jsx",
         "variable.other.readwrite.alias.js.jsx",
         "entity.name.function.tsx",
-        "entity.name.function.js.jsx"
+        "entity.name.function.js.jsx",
+        "constant.language.import-export-all.tsx",
+        "entity.other.attribute-name.css"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
@@ -736,7 +742,8 @@
         "constant.numeric.css",
         "constant.language.boolean.true.js.jsx",
         "constant.language.boolean.false.js.jsx",
-        "constant.language.boolean.false.js"
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js"
       ],
       "settings": {
         "foreground": "#B99470"
@@ -760,7 +767,8 @@
       "name": "Morning Blue",
       "scope": [
         "comment.block.documentation.tsx",
-        "markup.strikethrough.markdown"
+        "markup.strikethrough.markdown",
+        "markup.table.markdown"
       ],
       "settings": {
         "foreground": "#84A98C"

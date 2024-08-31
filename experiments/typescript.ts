@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 let first: string = "hello";
 let n1: number = 15;
 let boo1: boolean = true;
@@ -89,3 +90,9 @@ var trigger = "2",
 alert(test + ""); // will display true
 
 let text = "string";
+
+let arr_y = [];
+
+for (let arr of arr_y) {
+  console.log(arr);
+}
