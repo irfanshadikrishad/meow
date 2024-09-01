@@ -1,6 +1,12 @@
 # CHANGELOG
 
-#### 3.0.5
+#### 3.0.7
+
+- fixes #15
+- supports lua
+- supports ruby
+
+#### 3.0.6
 
 - fixed CSS, Markdown & Typescript
 
