@@ -1,5 +1,10 @@
 # CHANGELOG
 
+#### 3.0.8
+
+- fix js
+- supports dart
+
 #### 3.0.7
 
 - fixes #15

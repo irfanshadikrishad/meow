@@ -256,7 +256,13 @@
         "support.function.kernel.lambda.ruby",
         "punctuation.separator.method.ruby",
         "keyword.operator.other.ruby",
-        "punctuation.separator.namespace.ruby"
+        "punctuation.separator.namespace.ruby",
+        "punctuation.terminator.dart",
+        "punctuation.dot",
+        "punctuation.comma",
+        "keyword.operator.ternary",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -461,7 +467,14 @@
         "keyword.control.def.ruby",
         "keyword.control.ruby",
         "keyword.control.class.ruby",
-        "keyword.control.pseudo-method.ruby"
+        "keyword.control.pseudo-method.ruby",
+        "keyword.control",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "storage.type.primitive",
+        "support.class.dart",
+        "storage.modifier",
+        "entity.name.tag.reference.scss"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -541,7 +554,8 @@
         "support.function.lua",
         "source.lua",
         "keyword.operator.lua",
-        "source.ruby"
+        "source.ruby",
+        "source.dart"
       ],
       "settings": { "foreground": "#ECB365" }
     },
@@ -561,7 +575,8 @@
         "string.quoted.single.tsx",
         "string.template.tsx",
         "string.unquoted.plain.out.yaml",
-        "source.ini"
+        "source.ini",
+        "variable.parameter.url.css"
       ],
       "settings": { "foreground": "#98c379" }
     },
@@ -675,7 +690,9 @@
         "entity.name.type.interface.ts",
         "entity.name.function.lua",
         "entity.name.function.ruby",
-        "entity.name.type.class.ruby"
+        "entity.name.type.class.ruby",
+        "entity.name.function",
+        "keyword.declaration.dart"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
@@ -733,7 +750,8 @@
         "constant.character.entity.tsx",
         "entity.other.attribute.lua",
         "support.class.ruby",
-        "constant.language.ruby"
+        "constant.language.ruby",
+        "storage.type.annotation"
       ],
       "settings": {
         "foreground": "#E76F51",
@@ -808,7 +826,8 @@
         "constant.language.boolean.false.js.jsx",
         "constant.language.boolean.false.js",
         "constant.language.boolean.true.js",
-        "constant.numeric.integer.ruby"
+        "constant.numeric.integer.ruby",
+        "support.constant.font-name.css"
       ],
       "settings": {
         "foreground": "#B99470"
@@ -835,7 +854,11 @@
         "markup.strikethrough.markdown",
         "markup.table.markdown",
         "constant.numeric.float.lua",
-        "constant.other.symbol.ruby"
+        "constant.other.symbol.ruby",
+        "constant.numeric.dart",
+        "constant.other.color.rgb-value.hex.css",
+        "support.constant.color.w3c-standard-color-name.css",
+        "support.function.transform.css"
       ],
       "settings": {
         "foreground": "#84A98C"

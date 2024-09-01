@@ -1,0 +1,106 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: rgb(5, 6, 10);
+$font-stack: 'Roboto', sans-serif;
+$spacing-unit: 16px;
+
+@mixin flex-center($direction: row) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+// Comment
+/*
+    Comment
+*/
+@mixin responsive-font-size($min-size, $max-size) {
+    font-size: $min-size;
+
+    @media (min-width: 600px) {
+        font-size: $max-size;
+    }
+}
+
+@function px-to-rem($px, $base: 16px) {
+    @return $px / $base * 1rem;
+}
+
+body {
+    font-family: $font-stack;
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
+
+.navbar {
+    background-color: $primary-color;
+    padding: $spacing-unit;
+
+    .nav-item {
+        display: inline-block;
+        margin-right: $spacing-unit;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        a {
+            color: white;
+
+            &::before {
+                content: '▶';
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+.button {
+    @include flex-center;
+    padding: px-to-rem(10px) px-to-rem(20px);
+    border-radius: 4px;
+    color: white;
+    background-color: $secondary-color;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: lighten($secondary-color, 10%);
+    }
+
+    &--primary {
+        background-color: $primary-color;
+    }
+
+    &--secondary {
+        background-color: $secondary-color;
+    }
+}
+
+.header {
+    @include responsive-font-size(18px, 24px);
+    text-align: center;
+    padding: px-to-rem(20px);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+        margin-bottom: $spacing-unit;
+    }
+}

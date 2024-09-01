@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 // Variable declarations
+
+import os from 'os';
+import path from 'path';
+
+console.log(os.arch);
+
 let number = 10;
 const pi = 3.14159;
 var message = "Hello, World!";
