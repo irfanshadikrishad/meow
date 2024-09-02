@@ -5,6 +5,7 @@
 - fix js
 - supports dart
 - CSS improved
+- fix invalid Token
 
 #### 3.0.7
 
