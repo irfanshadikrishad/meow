@@ -23,12 +23,12 @@
     "dropdown.background": "#03040f",
     "dropdown.listBackground": "#03040f",
     "editor.background": "#03040f",
-    "editor.bracketMatch.background": "#2B2C28",
-    "editor.bracketMatch.border": "#2B2C28",
-    "editor.cursor.background": "#ff6189",
-    "editor.cursor.foreground": "#B6BBC4",
-    "editor.findMatch.background": "#1a9b0094",
-    "editor.findMatchHighlight.background": "#009b0050",
+    "editorBracketMatch.background": "#2B2C28",
+    "editorBracketMatch.border": "#2B2C28",
+    "editorCursor.background": "#ff6189",
+    "editorCursor.foreground": "#B6BBC4",
+    "editor.findMatchBackground": "#4e534d94",
+    "editor.findMatchHighlightBackground": "#53575350",
     "editor.foreground": "#B6BBC4",
     "editor.indentGuide.activeBackground1": "#303030",
     "editor.indentGuide.activeBackground2": "#303030",
@@ -133,8 +133,8 @@
     "editorBracketHighlight.foreground5": "#ff6189",
     "editorBracketHighlight.foreground6": "#ff6189",
     "editorBracketHighlight.unexpectedBracket.foreground": "#3DC2EC",
-    "editorIndentGuide.background": "#151515",
-    "editorIndentGuide.activeBackground": "#45474B"
+    "editorIndentGuide.background1": "#151515",
+    "editorIndentGuide.activeBackground1": "#45474B"
   },
   "tokenColors": [
     {
@@ -406,8 +406,6 @@
         "support.function.builtin.shell",
         "support.function.construct.output.php",
         "support.type.property-name.json",
-        "variable.argument.css",
-        "variable.css",
         "variable.language.this.tsx",
         "storage.type.type.tsx",
         "storage.type.class.tsx",
@@ -474,7 +472,8 @@
         "storage.type.primitive",
         "support.class.dart",
         "storage.modifier",
-        "entity.name.tag.reference.scss"
+        "entity.name.tag.reference.scss",
+        "meta.at-rule.media.header.css"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -576,7 +575,11 @@
         "string.template.tsx",
         "string.unquoted.plain.out.yaml",
         "source.ini",
-        "variable.parameter.url.css"
+        "variable.parameter.url.css",
+        "support.constant.property-value.css",
+        "constant.numeric.css",
+        "meta.property-value.css",
+        "support.constant.font-name.css"
       ],
       "settings": { "foreground": "#98c379" }
     },
@@ -679,20 +682,21 @@
         "entity.name.type.cpp",
         "entity.name.function.member.cpp",
         "entity.name.function.call.cpp",
-        "entity.other.attribute-name.js.jsx",
-        "variable.other.readwrite.alias.js.jsx",
         "entity.name.function.tsx",
         "entity.name.function.js.jsx",
-        "constant.language.import-export-all.tsx",
-        "entity.other.attribute-name.css",
         "entity.name.function.scss",
-        "meta.embedded.block.scss",
+        "entity.name.function",
         "entity.name.type.interface.ts",
         "entity.name.function.lua",
         "entity.name.function.ruby",
         "entity.name.type.class.ruby",
-        "entity.name.function",
-        "keyword.declaration.dart"
+        "entity.other.attribute-name.js.jsx",
+        "variable.other.readwrite.alias.js.jsx",
+        "constant.language.import-export-all.tsx",
+        "entity.other.attribute-name.css",
+        "meta.embedded.block.scss",
+        "keyword.declaration.dart",
+        "support.function.transform.css"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
@@ -737,7 +741,9 @@
         "support.function.library.lua",
         "constant.language.lua",
         "support.function.kernel.ruby",
-        "keyword.other.special-method.ruby"
+        "keyword.other.special-method.ruby",
+        "support.type.property-name.css",
+        "meta.property-name.css"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -774,7 +780,6 @@
         "entity.name.type.tsx",
         "meta.object-literal.key.js",
         "meta.object-literal.key.tsx",
-        "meta.property-name.css",
         "meta.var.expr.tsx",
         "punctuation.bracket.angle.java",
         "punctuation.definition.link.description.begin.markdown",
@@ -788,9 +793,6 @@
         "storage.type.object.array.java",
         "storage.type.string.go",
         "support.type.primitive.tsx",
-        "support.type.property-name.css",
-        "support.type.property-name.media.css",
-        "meta.property-name.css",
         "keyword.operator.ellipsis.go",
         "keyword.other.default.destructor.cpp",
         "keyword.type.int.cs",
@@ -798,7 +800,6 @@
         "constant.numeric.integer.shell",
         "support.type.builtin.tsx",
         "meta.structure.dictionary.value.json",
-        "meta.at-rule.media.header.css",
         "entity.name.type.js.jsx",
         "entity.name.type.module.js.jsx"
       ],
@@ -816,18 +817,14 @@
         "constant.numeric.decimal.js",
         "constant.numeric.decimal.php",
         "constant.numeric.integer.decimal.swift",
-        "meta.property-value.css",
         "meta.scope.logical-expression.shell",
-        "support.constant.property-value.css",
         "support.constant.std.php",
         "keyword.operator.arithmetic.php",
-        "constant.numeric.css",
         "constant.language.boolean.true.js.jsx",
         "constant.language.boolean.false.js.jsx",
         "constant.language.boolean.false.js",
         "constant.language.boolean.true.js",
-        "constant.numeric.integer.ruby",
-        "support.constant.font-name.css"
+        "constant.numeric.integer.ruby"
       ],
       "settings": {
         "foreground": "#B99470"
@@ -856,12 +853,17 @@
         "constant.numeric.float.lua",
         "constant.other.symbol.ruby",
         "constant.numeric.dart",
-        "constant.other.color.rgb-value.hex.css",
-        "support.constant.color.w3c-standard-color-name.css",
-        "support.function.transform.css"
+        "support.constant.color.w3c-standard-color-name.css"
       ],
       "settings": {
         "foreground": "#84A98C"
+      }
+    },
+    {
+      "name": "Vista Blue",
+      "scope": ["variable.css", "variable.argument.css"],
+      "settings": {
+        "foreground": "#858AE3"
       }
     }
   ]

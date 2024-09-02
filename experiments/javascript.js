@@ -10,7 +10,6 @@ let number = 10;
 const pi = 3.14159;
 var message = "Hello, World!";
 
-// Function declarations
 function greet(name) {
     return `Hello, ${name}!`;
 }
@@ -20,8 +19,8 @@ const add = (a, b) => a + b;
 function calculateArea(radius) {
     return pi * radius * radius;
 }
+calculateArea();
 
-// Object and Array examples
 const person = {
     name: "Alice",
     age: 30,
@@ -33,12 +32,10 @@ const person = {
 
 const numbers = [1, 2, 3, 4, 5];
 
-// Accessing object properties and array elements
 console.log(`Name: ${person.name}`);
 console.log(`Job: ${person['job']}`);
 console.log(`Second number: ${numbers[1]}`);
 
-// Loop examples
 for (let i = 0; i < numbers.length; i++) {
     console.log(`Number: ${numbers[i]}`);
 }
@@ -53,7 +50,6 @@ while (index < numbers.length) {
     index++;
 }
 
-// Conditional statements
 if (number > 5) {
     console.log("Number is greater than 5");
 } else if (number === 5) {
@@ -62,7 +58,6 @@ if (number > 5) {
     console.log("Number is less than 5");
 }
 
-// Switch statement
 switch (number) {
     case 1:
         console.log("Number is 1");
@@ -74,7 +69,6 @@ switch (number) {
         console.log("Number is neither 1 nor 10");
 }
 
-// Error handling
 try {
     let result = riskyOperation();
     console.log(`Result: ${result}`);
@@ -82,7 +76,6 @@ try {
     console.log(`Error: ${error.message}`);
 }
 
-// Asynchronous code
 function fetchData() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -97,7 +90,6 @@ fetchData().then(response => {
     console.log(`Error: ${error}`);
 });
 
-// Classes and inheritance
 class Animal {
     constructor(name) {
         this.name = name;
@@ -122,7 +114,6 @@ class Dog extends Animal {
 const myDog = new Dog("Rex", "German Shepherd");
 myDog.speak();
 
-// Template literals
 const userName = "Bob";
 const greeting = `Welcome, ${userName}!`;
 console.log(greeting);

@@ -4,6 +4,7 @@
 
 - fix js
 - supports dart
+- CSS improved
 
 #### 3.0.7
 
