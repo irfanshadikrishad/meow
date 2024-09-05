@@ -1,5 +1,12 @@
 # CHANGELOG
 
+#### 3.0.8
+
+- fix js
+- supports dart
+- CSS improved
+- fix invalid Token
+
 #### 3.0.7
 
 - fixes #15

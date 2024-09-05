@@ -23,28 +23,28 @@
     "dropdown.background": "#03040f",
     "dropdown.listBackground": "#03040f",
     "editor.background": "#03040f",
-    "editor.bracketMatch.background": "#2B2C28",
-    "editor.bracketMatch.border": "#2B2C28",
-    "editor.cursor.background": "#ff6189",
-    "editor.cursor.foreground": "#B6BBC4",
-    "editor.findMatch.background": "#1a9b0094",
-    "editor.findMatchHighlight.background": "#009b0050",
+    "editorBracketMatch.background": "#2B2C28",
+    "editorBracketMatch.border": "#2B2C28",
+    "editorCursor.background": "#ff6189",
+    "editorCursor.foreground": "#B6BBC4",
+    "editor.findMatchBackground": "#4e534d94",
+    "editor.findMatchHighlightBackground": "#53575350",
     "editor.foreground": "#B6BBC4",
-    "editor.indentGuide.activeBackground1": "#303030",
-    "editor.indentGuide.activeBackground2": "#303030",
-    "editor.indentGuide.activeBackground3": "#303030",
-    "editor.indentGuide.activeBackground4": "#303030",
-    "editor.indentGuide.activeBackground5": "#303030",
-    "editor.indentGuide.activeBackground6": "#303030",
-    "editor.indentGuide.background1": "#131515",
-    "editor.indentGuide.background2": "#131515",
-    "editor.indentGuide.background3": "#131515",
-    "editor.indentGuide.background4": "#131515",
-    "editor.indentGuide.background5": "#131515",
-    "editor.indentGuide.background6": "#131515",
+    "editorIndentGuide.activeBackground1": "#45474B",
+    "editorIndentGuide.activeBackground2": "#303030",
+    "editorIndentGuide.activeBackground3": "#303030",
+    "editorIndentGuide.activeBackground4": "#303030",
+    "editorIndentGuide.activeBackground5": "#303030",
+    "editorIndentGuide.activeBackground6": "#303030",
+    "editorIndentGuide.background1": "#151515",
+    "editorIndentGuide.background2": "#131515",
+    "editorIndentGuide.background3": "#131515",
+    "editorIndentGuide.background4": "#131515",
+    "editorIndentGuide.background5": "#131515",
+    "editorIndentGuide.background6": "#131515",
     "editorLineNumber.foreground": "#45474B",
     "editorLineNumber.activeForeground": "#ff6189",
-    "editor.selectionBackground": "#060d18b2",
+    "editor.selectionBackground": "#B6BBC420",
     "editorSuggestWidget.background": "#03040f",
     "editorSuggestWidget.focusHighlightForeground": "#03040f",
     "editorSuggestWidget.highlightForeground": "#ff6189",
@@ -82,14 +82,14 @@
     "menubar.selectionForeground": "#B6BBC4",
     "minimap.errorHighlight": "#FF4B91",
     "notificationCenter.border": "#1b1b1b",
-    "notificationCenter.header.foreground": "#ff6189",
+    "notificationCenterHeader.foreground": "#ff6189",
     "notificationLink.foreground": "#4361EE",
     "notificationToast.border": "#1b1b1b",
     "notifications.background": "#03040f",
     "notifications.border": "#1b1b1b",
-    "notifications.errorIcon.foreground": "#FF4B91",
-    "notifications.infoIcon.foreground": "#4CC9F0",
-    "notifications.warningIcon.foreground": "#FF9130",
+    "notificationsErrorIcon.foreground": "#FF4B91",
+    "notificationsInfoIcon.foreground": "#4CC9F0",
+    "notificationsWarningIcon.foreground": "#FF9130",
     "panel.background": "#03040f",
     "panel.border": "#2B2C28",
     "profileBadge.background": "#ff6189",
@@ -132,9 +132,7 @@
     "editorBracketHighlight.foreground4": "#ff6189",
     "editorBracketHighlight.foreground5": "#ff6189",
     "editorBracketHighlight.foreground6": "#ff6189",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#3DC2EC",
-    "editorIndentGuide.background": "#151515",
-    "editorIndentGuide.activeBackground": "#45474B"
+    "editorBracketHighlight.unexpectedBracket.foreground": "#3DC2EC"
   },
   "tokenColors": [
     {
@@ -256,7 +254,13 @@
         "support.function.kernel.lambda.ruby",
         "punctuation.separator.method.ruby",
         "keyword.operator.other.ruby",
-        "punctuation.separator.namespace.ruby"
+        "punctuation.separator.namespace.ruby",
+        "punctuation.terminator.dart",
+        "punctuation.dot",
+        "punctuation.comma",
+        "keyword.operator.ternary",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -400,8 +404,6 @@
         "support.function.builtin.shell",
         "support.function.construct.output.php",
         "support.type.property-name.json",
-        "variable.argument.css",
-        "variable.css",
         "variable.language.this.tsx",
         "storage.type.type.tsx",
         "storage.type.class.tsx",
@@ -461,7 +463,15 @@
         "keyword.control.def.ruby",
         "keyword.control.ruby",
         "keyword.control.class.ruby",
-        "keyword.control.pseudo-method.ruby"
+        "keyword.control.pseudo-method.ruby",
+        "keyword.control",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "storage.type.primitive",
+        "support.class.dart",
+        "storage.modifier",
+        "entity.name.tag.reference.scss",
+        "meta.at-rule.media.header.css"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -541,7 +551,8 @@
         "support.function.lua",
         "source.lua",
         "keyword.operator.lua",
-        "source.ruby"
+        "source.ruby",
+        "source.dart"
       ],
       "settings": { "foreground": "#ECB365" }
     },
@@ -561,7 +572,12 @@
         "string.quoted.single.tsx",
         "string.template.tsx",
         "string.unquoted.plain.out.yaml",
-        "source.ini"
+        "source.ini",
+        "variable.parameter.url.css",
+        "constant.numeric.css",
+        "meta.property-value.css",
+        "support.constant.font-name.css",
+        "support.constant.property-value.css"
       ],
       "settings": { "foreground": "#98c379" }
     },
@@ -644,6 +660,7 @@
         "support.class.php",
         "support.class.promise.tsx",
         "support.constant.media.css",
+        "support.function.transform.css",
         "support.function.any-method.swift",
         "support.function.array.php",
         "support.function.constructor.php",
@@ -657,25 +674,27 @@
         "support.function.string.php",
         "support.function.swift",
         "support.function.url.css",
-        "variable.other.readwrite.alias.tsx",
-        "variable.parameter.keyframe-list.css",
-        "entity.name.type.class.tsx",
         "source.sql",
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.readwrite.alias.js.jsx",
+        "variable.parameter.keyframe-list.css",
         "entity.name.type.cpp",
+        "entity.name.type.class.tsx",
+        "entity.name.type.class.ruby",
+        "entity.name.type.interface.ts",
         "entity.name.function.member.cpp",
         "entity.name.function.call.cpp",
-        "entity.other.attribute-name.js.jsx",
-        "variable.other.readwrite.alias.js.jsx",
         "entity.name.function.tsx",
         "entity.name.function.js.jsx",
-        "constant.language.import-export-all.tsx",
-        "entity.other.attribute-name.css",
         "entity.name.function.scss",
-        "meta.embedded.block.scss",
-        "entity.name.type.interface.ts",
+        "entity.name.function",
         "entity.name.function.lua",
         "entity.name.function.ruby",
-        "entity.name.type.class.ruby"
+        "entity.other.attribute-name.css",
+        "entity.other.attribute-name.js.jsx",
+        "constant.language.import-export-all.tsx",
+        "meta.embedded.block.scss",
+        "keyword.declaration.dart"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
@@ -720,7 +739,9 @@
         "support.function.library.lua",
         "constant.language.lua",
         "support.function.kernel.ruby",
-        "keyword.other.special-method.ruby"
+        "keyword.other.special-method.ruby",
+        "support.type.property-name.css",
+        "meta.property-name.css"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -730,10 +751,11 @@
       "name": "Burnt Sienna Italic",
       "scope": [
         "markup.inline.raw.string.markdown",
+        "constant.language.ruby",
         "constant.character.entity.tsx",
         "entity.other.attribute.lua",
         "support.class.ruby",
-        "constant.language.ruby"
+        "storage.type.annotation"
       ],
       "settings": {
         "foreground": "#E76F51",
@@ -756,7 +778,6 @@
         "entity.name.type.tsx",
         "meta.object-literal.key.js",
         "meta.object-literal.key.tsx",
-        "meta.property-name.css",
         "meta.var.expr.tsx",
         "punctuation.bracket.angle.java",
         "punctuation.definition.link.description.begin.markdown",
@@ -770,9 +791,6 @@
         "storage.type.object.array.java",
         "storage.type.string.go",
         "support.type.primitive.tsx",
-        "support.type.property-name.css",
-        "support.type.property-name.media.css",
-        "meta.property-name.css",
         "keyword.operator.ellipsis.go",
         "keyword.other.default.destructor.cpp",
         "keyword.type.int.cs",
@@ -780,7 +798,6 @@
         "constant.numeric.integer.shell",
         "support.type.builtin.tsx",
         "meta.structure.dictionary.value.json",
-        "meta.at-rule.media.header.css",
         "entity.name.type.js.jsx",
         "entity.name.type.module.js.jsx"
       ],
@@ -797,18 +814,15 @@
         "constant.numeric.decimal.java",
         "constant.numeric.decimal.js",
         "constant.numeric.decimal.php",
+        "constant.numeric.integer.ruby",
         "constant.numeric.integer.decimal.swift",
-        "meta.property-value.css",
-        "meta.scope.logical-expression.shell",
-        "support.constant.property-value.css",
-        "support.constant.std.php",
-        "keyword.operator.arithmetic.php",
-        "constant.numeric.css",
         "constant.language.boolean.true.js.jsx",
         "constant.language.boolean.false.js.jsx",
         "constant.language.boolean.false.js",
         "constant.language.boolean.true.js",
-        "constant.numeric.integer.ruby"
+        "meta.scope.logical-expression.shell",
+        "support.constant.std.php",
+        "keyword.operator.arithmetic.php"
       ],
       "settings": {
         "foreground": "#B99470"
@@ -835,10 +849,19 @@
         "markup.strikethrough.markdown",
         "markup.table.markdown",
         "constant.numeric.float.lua",
-        "constant.other.symbol.ruby"
+        "constant.other.symbol.ruby",
+        "constant.numeric.dart",
+        "support.constant.color.w3c-standard-color-name.css"
       ],
       "settings": {
         "foreground": "#84A98C"
+      }
+    },
+    {
+      "name": "Vista Blue",
+      "scope": ["variable.css", "variable.argument.css"],
+      "settings": {
+        "foreground": "#858AE3"
       }
     }
   ]

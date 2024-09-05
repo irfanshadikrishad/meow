@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>EJS Example</title>
+  </head>
+
+  <body>
+    <h1>Hello, <%= user.name %>!</h1>
+
+    <% if (user.admin) { %>
+    <p>Welcome, Admin!</p>
+    <% } else { %>
+    <p>Welcome, User!</p>
+    <% } %>
+
+    <h2>Fruits List</h2>
+    <ul>
+      <% fruits.forEach(function(fruit) { %>
+      <li><%= fruit %></li>
+      <% }); %>
+    </ul>
+
+    <h2>Conditionals</h2>
+    <% if (fruits.length> 0) { %>
+    <p>You have <%= fruits.length %> fruits.</p>
+    <% } else { %>
+    <p>No fruits available.</p>
+    <% } %>
+
+    <h2>Loops with Index</h2>
+    <ul>
+      <% for (var i=0; i < fruits.length; i++) { %>
+      <li><%= i + 1 %>: <%= fruits[i] %></li>
+      <% } %>
+    </ul>
+
+    <h2>Include Partials</h2>
+    <%- include('partials/footer') %>
+
+    <!-- Example of unescaped output -->
+    <h2>Unescaped Output</h2>
+    <p><%- user.rawHtml %></p>
+
+    <!-- Example of scriptlet -->
+    <% var greeting='Good evening' ; if (new Date().getHours() < 12) {
+    greeting='Good morning' ; } else if (new Date().getHours() < 18) {
+    greeting='Good afternoon' ; } %>
+    <h2><%= greeting %>, <%= user.name %>!</h2>
+  </body>
+</html>
