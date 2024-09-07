@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### 3.0.9
+
+- better syntax on GO
+
 #### 3.0.8
 
 - fix js

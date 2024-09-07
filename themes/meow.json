@@ -260,7 +260,9 @@
         "punctuation.comma",
         "keyword.operator.ternary",
         "keyword.operator.assignment",
-        "keyword.operator.comparison"
+        "keyword.operator.comparison",
+        "constant.numeric.decimal.point.go",
+        "punctuation.terminator.go"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -471,7 +473,11 @@
         "support.class.dart",
         "storage.modifier",
         "entity.name.tag.reference.scss",
-        "meta.at-rule.media.header.css"
+        "meta.at-rule.media.header.css",
+        "keyword.const.go",
+        "keyword.go.mod",
+        "go.mod",
+        "go.sum"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -552,7 +558,9 @@
         "source.lua",
         "keyword.operator.lua",
         "source.ruby",
-        "source.dart"
+        "source.dart",
+        "keyword.operator.comparison.go",
+        "keyword.operator.increment.go"
       ],
       "settings": { "foreground": "#ECB365" }
     },
@@ -741,7 +749,9 @@
         "support.function.kernel.ruby",
         "keyword.other.special-method.ruby",
         "support.type.property-name.css",
-        "meta.property-name.css"
+        "meta.property-name.css",
+        "constant.language.go.mod",
+        "constant.language.go.sum"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -799,7 +809,8 @@
         "support.type.builtin.tsx",
         "meta.structure.dictionary.value.json",
         "entity.name.type.js.jsx",
-        "entity.name.type.module.js.jsx"
+        "entity.name.type.module.js.jsx",
+        "storage.type.boolean.go"
       ],
       "settings": {
         "foreground": "#6DA4AA"
@@ -822,7 +833,8 @@
         "constant.language.boolean.true.js",
         "meta.scope.logical-expression.shell",
         "support.constant.std.php",
-        "keyword.operator.arithmetic.php"
+        "keyword.operator.arithmetic.php",
+        "constant.language.boolean.go"
       ],
       "settings": {
         "foreground": "#B99470"
@@ -859,7 +871,11 @@
     },
     {
       "name": "Vista Blue",
-      "scope": ["variable.css", "variable.argument.css"],
+      "scope": [
+        "variable.css",
+        "variable.argument.css",
+        "constant.language.null.go"
+      ],
       "settings": {
         "foreground": "#858AE3"
       }
