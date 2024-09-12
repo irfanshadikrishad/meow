@@ -7,9 +7,11 @@ export default function Login() {
   const router = useRouter();
   const cookieStore = cookies();
   const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [number, setNumber] = useState(123);
+  const [password, setPassword] = useState(null);
+  const [undefined, setUndefined] = useState(undefined);
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e) {
     e.preventDefault();
 
     try {

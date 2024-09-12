@@ -262,7 +262,8 @@
         "keyword.operator.assignment",
         "keyword.operator.comparison",
         "constant.numeric.decimal.point.go",
-        "punctuation.terminator.go"
+        "punctuation.terminator.go",
+        "punctuation.separator.map.value.yaml"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -477,7 +478,8 @@
         "keyword.const.go",
         "keyword.go.mod",
         "go.mod",
-        "go.sum"
+        "go.sum",
+        "keyword.operator.address.go"
       ],
       "settings": {
         "foreground": "#ff6189"
@@ -702,7 +704,8 @@
         "entity.other.attribute-name.js.jsx",
         "constant.language.import-export-all.tsx",
         "meta.embedded.block.scss",
-        "keyword.declaration.dart"
+        "keyword.declaration.dart",
+        "constant.language.go.sum"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
@@ -750,8 +753,7 @@
         "keyword.other.special-method.ruby",
         "support.type.property-name.css",
         "meta.property-name.css",
-        "constant.language.go.mod",
-        "constant.language.go.sum"
+        "constant.language.go.mod"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -810,7 +812,10 @@
         "meta.structure.dictionary.value.json",
         "entity.name.type.js.jsx",
         "entity.name.type.module.js.jsx",
-        "storage.type.boolean.go"
+        "storage.type.boolean.go",
+        "keyword.interface.go",
+        "storage.type.rune.go",
+        "meta.objectliteral.tsx"
       ],
       "settings": {
         "foreground": "#6DA4AA"
@@ -874,7 +879,9 @@
       "scope": [
         "variable.css",
         "variable.argument.css",
-        "constant.language.null.go"
+        "constant.language.null.go",
+        "constant.language.null.js.jsx",
+        "constant.language.undefined.js.jsx"
       ],
       "settings": {
         "foreground": "#858AE3"

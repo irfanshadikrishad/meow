@@ -1,5 +1,10 @@
 # CHANGELOG
 
+#### 3.0.10
+
+- fixed #18
+- better syntax on GO
+
 #### 3.0.9
 
 - better syntax on GO
