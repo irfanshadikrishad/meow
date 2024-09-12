@@ -2,9 +2,9 @@
   "level0": {
     "level1": "value1",
     "level1a": "value1",
-    "level1b": "value1",
-    "level1c": "value1",
-    "level1d": "value1",
+    "level1b": ["a", "b", "c"],
+    "level1c": [1, 2, 3, 4],
+    "level1d": { "a": { "x": "1" }, "b": "2" },
     "level1e": {
       "level2": "value2",
       "level2a": "value2",

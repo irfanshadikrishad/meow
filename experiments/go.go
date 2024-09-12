@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"time"
 	"math"
+	"time"
 )
 
 type Person struct {
