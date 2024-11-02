@@ -1,18 +1,18 @@
-"use client";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
-import { cookies } from "next/headers";
+"use client"
+import { useRouter } from "next/navigation"
+import { useState } from "react"
+import { cookies } from "next/headers"
 
 export default function Login() {
-  const router = useRouter();
-  const cookieStore = cookies();
-  const [username, setUsername] = useState("");
-  const [number, setNumber] = useState(123);
-  const [password, setPassword] = useState(null);
-  const [undefined, setUndefined] = useState(undefined);
+  const router = useRouter()
+  const cookieStore = cookies()
+  const [username, setUsername] = useState("")
+  const [number, setNumber] = useState(123)
+  const [password, setPassword] = useState(null)
+  const [undefined, setUndefined] = useState(undefined)
 
   async function handleSubmit(e) {
-    e.preventDefault();
+    e.preventDefault()
 
     try {
       const response = await fetch("/api/auth/login", {
@@ -21,19 +21,19 @@ export default function Login() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ username, password }),
-      });
+      })
 
-      const data = await response.json();
+      const data = await response.json()
 
       if (response.ok) {
         // Set cookie and redirect
-        cookieStore.set("logger", data.success);
-        router.push("/");
+        cookieStore.set("logger", data.success)
+        router.push("/")
       } else {
-        console.error(data.error);
+        console.error(data.error)
       }
     } catch (error) {
-      console.error("An error occurred:", error);
+      console.error("An error occurred:", error)
     }
   }
 
@@ -56,5 +56,5 @@ export default function Login() {
       </form>
       <Card pair={pair} />
     </section>
-  );
+  )
 }

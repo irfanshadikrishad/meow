@@ -4,7 +4,7 @@
   "description": "Fresh and clean user interface, code with no distraction. Meow in the darkness.",
   "publisher": "irfanshadikrishad",
   "icon": "images/meow.png",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "repository": {
     "type": "git",
     "url": "https://github.com/irfanshadikrishad/meow"
@@ -38,5 +38,11 @@
         "path": "./themes/meow.json"
       }
     ]
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "format": "prettier . --write"
   }
 }

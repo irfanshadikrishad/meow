@@ -263,7 +263,10 @@
         "keyword.operator.comparison",
         "constant.numeric.decimal.point.go",
         "punctuation.terminator.go",
-        "punctuation.separator.map.value.yaml"
+        "punctuation.separator.map.value.yaml",
+        "punctuation.definition.section.case-statement.tsx",
+        "meta.at-rule.include.scss",
+        "punctuation.separator.argument-label.swift"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -480,7 +483,9 @@
         "go.mod",
         "go.sum",
         "keyword.operator.address.go",
-        "keyword.control.flow.js.jsx"
+        "keyword.control.flow.js.jsx",
+        "keyword.operator.expression.keyof.tsx",
+        "punctuation.section.property-list.begin.bracket.curly.css"
       ],
       "settings": {
         "foreground": "#ff6188"
@@ -498,7 +503,10 @@
         "storage.modifier.async.js.jsx",
         "keyword.control.default.js",
         "storage.type.class.jsdoc",
-        "support.function.misc.scss"
+        "support.function.misc.scss",
+        "keyword.operator.expression.in.tsx",
+        "keyword.operator.rest.tsx",
+        "keyword.operator.expression.instanceof.tsx"
       ],
       "settings": {
         "foreground": "#ff6188",
@@ -561,7 +569,8 @@
         "keyword.operator.comparison.go",
         "keyword.operator.increment.go",
         "variable.other.go",
-        "variable.other.assignment.go"
+        "variable.other.assignment.go",
+        "keyword.operator.expression.infer.tsx"
       ],
       "settings": { "foreground": "#ECB365" }
     },
