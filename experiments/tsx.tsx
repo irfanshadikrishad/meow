@@ -1,45 +1,45 @@
-"use client";
-import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
-import styles from "@/styles/search.module.css";
+"use client"
+import { useEffect, useState } from "react"
+import { useSearchParams } from "next/navigation"
+import styles from "@/styles/search.module.css"
 // Components
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import Popular from "@/components/Popular";
-import Trending from "@/components/Trending";
-import SearchResults from "@/components/SearchResults";
-import Country from "@/components/filter/Country";
-import Filter from "@/components/filter/Filter";
-import Status from "@/components/filter/Status";
-import Format from "@/components/filter/Format";
-import Season from "@/components/filter/Season";
-import Year from "@/components/filter/Year";
-import Genre from "@/components/filter/Genre";
-import Input from "@/components/filter/Input";
+import Footer from "@/components/Footer"
+import Navbar from "@/components/Navbar"
+import Popular from "@/components/Popular"
+import Trending from "@/components/Trending"
+import SearchResults from "@/components/SearchResults"
+import Country from "@/components/filter/Country"
+import Filter from "@/components/filter/Filter"
+import Status from "@/components/filter/Status"
+import Format from "@/components/filter/Format"
+import Season from "@/components/filter/Season"
+import Year from "@/components/filter/Year"
+import Genre from "@/components/filter/Genre"
+import Input from "@/components/filter/Input"
 
 export default function Search() {
-  const searchParams = useSearchParams();
+  const searchParams = useSearchParams()
   const [query, setQuery] = useState(
-    searchParams.get("query") ? searchParams.get("query") : null
-  );
-  const [searched, setSearched] = useState<any[]>([]);
-  const [trending, setTrending] = useState([]);
-  const [popular, setPopular] = useState([]);
+    searchParams.get("query") ? searchParams.get("query") : null,
+  )
+  const [searched, setSearched] = useState<any[]>([])
+  const [trending, setTrending] = useState([])
+  const [popular, setPopular] = useState([])
 
   // Open/Close Management
-  const [isGenreOpen, setIsGenreOpen] = useState(false);
-  const [isYearOpen, setIsYearOpen] = useState(false);
-  const [isSeasonOpen, setIsSeasonOpen] = useState(false);
-  const [isFormatOpen, setIsFormatOpen] = useState(false);
-  const [isStatusOpen, setIsStatusOpen] = useState(false);
-  const [isCountryOpen, setIsCountryOpen] = useState(false);
+  const [isGenreOpen, setIsGenreOpen] = useState(false)
+  const [isYearOpen, setIsYearOpen] = useState(false)
+  const [isSeasonOpen, setIsSeasonOpen] = useState(false)
+  const [isFormatOpen, setIsFormatOpen] = useState(false)
+  const [isStatusOpen, setIsStatusOpen] = useState(false)
+  const [isCountryOpen, setIsCountryOpen] = useState(false)
   // Value Management
-  const [genre, setGenre] = useState<string[]>([]);
-  const [year, setYear] = useState<string[]>([]);
-  const [season, setSeason] = useState<string[]>([]);
-  const [format, setFormat] = useState<string[]>([]);
-  const [status, setStatus] = useState<string[]>([]);
-  const [country, setCountry] = useState<string[]>([]);
+  const [genre, setGenre] = useState<string[]>([])
+  const [year, setYear] = useState<string[]>([])
+  const [season, setSeason] = useState<string[]>([])
+  const [format, setFormat] = useState<string[]>([])
+  const [status, setStatus] = useState<string[]>([])
+  const [country, setCountry] = useState<string[]>([])
 
   const getSearched = async () => {
     const request = await fetch(`/api/search`, {
@@ -55,16 +55,16 @@ export default function Search() {
         origin: country,
         perPage: 60,
       }),
-    });
-    const response = await request.json();
+    })
+    const response = await request.json()
 
     if (request.status === 200) {
-      setSearched(response);
+      setSearched(response)
     } else {
-      setSearched([]);
-      console.log(response);
+      setSearched([])
+      console.log(response)
     }
-  };
+  }
 
   const getTrending = async () => {
     try {
@@ -72,18 +72,18 @@ export default function Search() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ page: 1, perPage: 7 }),
-      });
-      const response = await request.json();
+      })
+      const response = await request.json()
 
       if (request.status === 200) {
-        setTrending(response);
+        setTrending(response)
       } else {
-        console.log(response);
+        console.log(response)
       }
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
   const getPopular = async () => {
     try {
@@ -91,39 +91,39 @@ export default function Search() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ page: 1, perPage: 7 }),
-      });
-      const response = await request.json();
+      })
+      const response = await request.json()
 
       if (request.status === 200) {
-        setPopular(response);
+        setPopular(response)
       } else {
-        console.log(response);
+        console.log(response)
       }
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
   const insertValuesIntoState = (value: string, setValue: any) => {
     setValue((prevValue: string[]) => {
       if (prevValue.includes(value)) {
-        return prevValue.filter((item) => item !== value);
+        return prevValue.filter((item) => item !== value)
       } else {
-        return [...prevValue, value];
+        return [...prevValue, value]
       }
-    });
-  };
+    })
+  }
 
   useEffect(() => {
-    getTrending();
-    getPopular();
-  }, []);
+    getTrending()
+    getPopular()
+  }, [])
 
   useEffect(() => {
     if (searchParams.get("query")) {
-      getSearched();
+      getSearched()
     }
-  }, []);
+  }, [])
 
   return (
     <>
@@ -131,10 +131,9 @@ export default function Search() {
       <section className="container">
         <form
           onSubmit={(e) => {
-            e.preventDefault();
+            e.preventDefault()
           }}
-          className={styles.filter}
-        >
+          className={styles.filter}>
           <Input query={query} setQuery={setQuery} />
           <Genre
             genre={genre}
@@ -227,8 +226,11 @@ export default function Search() {
             {popular.length > 0 && <Popular popular={popular} />}
           </section>
         )}
+        <p>
+          hey <br />
+        </p>
       </section>
       <Footer />
     </>
-  );
+  )
 }

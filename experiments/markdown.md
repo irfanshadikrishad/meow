@@ -29,7 +29,7 @@ Click the link [here](https://example.com)
 > I heard a heavy footfall in the passage
 
 ```javascript
-console.log(`markdown code`);
+console.log(`markdown code`)
 ```
 
 <!-- Markdown Comment -->
