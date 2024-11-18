@@ -141,7 +141,10 @@
         "comment",
         "comment.block.css",
         "comment.block.html",
-        "comment.line.double-dash.sql"
+        "comment.line.double-dash.sql",
+        "meta.tag.xml",
+        "punctuation.separator.namespace.xml",
+        "meta.tag.preprocessor.xml"
       ],
       "settings": { "foreground": "#454545", "fontStyle": "italic" }
     },
@@ -485,7 +488,10 @@
         "keyword.operator.address.go",
         "keyword.control.flow.js.jsx",
         "keyword.operator.expression.keyof.tsx",
-        "punctuation.section.property-list.begin.bracket.curly.css"
+        "punctuation.section.property-list.begin.bracket.curly.css",
+        "entity.name.tag.localname.xml",
+        "punctuation.definition.tag.xml",
+        "entity.name.tag.xml"
       ],
       "settings": {
         "foreground": "#ff6188"
@@ -762,7 +768,9 @@
         "keyword.other.special-method.ruby",
         "support.type.property-name.css",
         "meta.property-name.css",
-        "constant.language.go.mod"
+        "constant.language.go.mod",
+        "entity.other.attribute-name.namespace.xml",
+        "entity.name.tag.namespace.xml"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -776,7 +784,9 @@
         "constant.character.entity.tsx",
         "entity.other.attribute.lua",
         "support.class.ruby",
-        "storage.type.annotation"
+        "storage.type.annotation",
+        "entity.other.attribute-name.localname.xml",
+        "entity.other.attribute-name.xml"
       ],
       "settings": {
         "foreground": "#E76F51",
@@ -895,7 +905,8 @@
         "constant.language.boolean.true.tsx",
         "constant.language.boolean.false.tsx",
         "constant.language.json",
-        "variable.scss"
+        "variable.scss",
+        "constant.character.entity.xml"
       ],
       "settings": {
         "foreground": "#858AE3"
