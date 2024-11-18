@@ -129,6 +129,7 @@ export default function Search() {
     <>
       <Navbar />
       <section className="container">
+        <p>Hey whatsapp</p>
         <form
           onSubmit={(e) => {
             e.preventDefault()
@@ -182,39 +183,6 @@ export default function Search() {
             setIsCountryOpen={setIsCountryOpen}
             setIsStatusOpen={setIsStatusOpen}
             insertValuesIntoState={insertValuesIntoState}
-          />
-          <Status
-            status={status}
-            setStatus={setStatus}
-            isStatusOpen={isStatusOpen}
-            insertValuesIntoState={insertValuesIntoState}
-            setIsCountryOpen={setIsCountryOpen}
-            setIsFormatOpen={setIsFormatOpen}
-            setIsStatusOpen={setIsStatusOpen}
-            setIsGenreOpen={setIsGenreOpen}
-            setIsYearOpen={setIsYearOpen}
-            setIsSeasonOpen={setIsSeasonOpen}
-          />
-          <Country
-            country={country}
-            setCountry={setCountry}
-            insertValuesIntoState={insertValuesIntoState}
-            isCountryOpen={isCountryOpen}
-            setIsCountryOpen={setIsCountryOpen}
-            setIsYearOpen={setIsYearOpen}
-            setIsGenreOpen={setIsGenreOpen}
-            setIsSeasonOpen={setIsSeasonOpen}
-            setIsFormatOpen={setIsFormatOpen}
-            setIsStatusOpen={setIsStatusOpen}
-          />
-          <Filter
-            getSearched={getSearched}
-            setIsCountryOpen={setIsCountryOpen}
-            setIsYearOpen={setIsYearOpen}
-            setIsGenreOpen={setIsGenreOpen}
-            setIsSeasonOpen={setIsSeasonOpen}
-            setIsFormatOpen={setIsFormatOpen}
-            setIsStatusOpen={setIsStatusOpen}
           />
         </form>
 

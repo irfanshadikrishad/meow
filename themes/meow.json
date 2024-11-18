@@ -911,6 +911,14 @@
       "settings": {
         "foreground": "#858AE3"
       }
+    },
+    {
+      "name": "Platinum",
+      "scope": ["meta.embedded.expression.tsx"],
+      "settings": {
+        "foreground": "#E5E5E570",
+        "fontStyle": ""
+      }
     }
   ]
 }

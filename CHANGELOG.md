@@ -1,5 +1,10 @@
 # CHANGELOG
 
+#### 3.1.0
+
+- fixed #21
+- XML syntax
+
 #### 3.0.10
 
 - fixed #18
