@@ -144,13 +144,17 @@
         "comment.line.double-dash.sql",
         "meta.tag.xml",
         "punctuation.separator.namespace.xml",
-        "meta.tag.preprocessor.xml"
+        "meta.tag.preprocessor.xml",
+        "punctuation.accessor.ts",
+        "punctuation.separator.key-value.ts"
       ],
       "settings": { "foreground": "#454545", "fontStyle": "italic" }
     },
     {
       "name": "Jet",
       "scope": [
+        "keyword.operator.type.ts",
+        "punctuation.accessor.optional.ts",
         "constant.numeric.decimal.point.c",
         "invalid.deprecated.semicolon.python",
         "keyword.operator.arithmetic.python",
@@ -269,7 +273,12 @@
         "punctuation.separator.map.value.yaml",
         "punctuation.definition.section.case-statement.tsx",
         "meta.at-rule.include.scss",
-        "punctuation.separator.argument-label.swift"
+        "punctuation.separator.argument-label.swift",
+        "storage.type.function.arrow.ts",
+        "keyword.operator.logical.ts",
+        "punctuation.separator.parameter.ts",
+        "keyword.operator.relational.ts",
+        "keyword.operator.arithmetic.ts"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -491,7 +500,8 @@
         "punctuation.section.property-list.begin.bracket.curly.css",
         "entity.name.tag.localname.xml",
         "punctuation.definition.tag.xml",
-        "entity.name.tag.xml"
+        "entity.name.tag.xml",
+        "storage.type.class.ts"
       ],
       "settings": {
         "foreground": "#ff6188"
@@ -512,7 +522,11 @@
         "support.function.misc.scss",
         "keyword.operator.expression.in.tsx",
         "keyword.operator.rest.tsx",
-        "keyword.operator.expression.instanceof.tsx"
+        "keyword.operator.expression.instanceof.tsx",
+        "storage.type.function.ts",
+        "keyword.control.as.ts",
+        "storage.modifier.async.ts",
+        "keyword.operator.expression.of.ts"
       ],
       "settings": {
         "foreground": "#ff6188",
@@ -558,11 +572,8 @@
         "storage.modifier.reference.cpp",
         "variable",
         "variable.object.property.tsx",
-        "variable.other.constant.tsx",
         "variable.other.enummember.tsx",
-        "variable.other.object.tsx",
         "variable.other.rust",
-        "variable.parameter.tsx",
         "keyword.type.void.cs",
         "entity.name.function.sql",
         "keyword.operator.spread.tsx",
@@ -576,7 +587,11 @@
         "keyword.operator.increment.go",
         "variable.other.go",
         "variable.other.assignment.go",
-        "keyword.operator.expression.infer.tsx"
+        "keyword.operator.expression.infer.tsx",
+        "string.quoted.double.tsx",
+        "string.template.tsx",
+        "string.quoted.double.ts",
+        "string.template.ts"
       ],
       "settings": { "foreground": "#ECB365" }
     },
@@ -589,19 +604,20 @@
         "string.quoted.double.html",
         "string.quoted.double.rust",
         "string.quoted.double.single-line.swift",
-        "string.quoted.double.tsx",
         "string.quoted.double.yaml",
         "string.quoted.single.css",
         "string.quoted.single.html",
         "string.quoted.single.tsx",
-        "string.template.tsx",
         "string.unquoted.plain.out.yaml",
         "source.ini",
         "variable.parameter.url.css",
         "constant.numeric.css",
         "meta.property-value.css",
         "support.constant.font-name.css",
-        "support.constant.property-value.css"
+        "support.constant.property-value.css",
+        "constant.numeric.decimal.ts",
+        "constant.language.boolean.true.ts",
+        "constant.language.boolean.false.ts"
       ],
       "settings": { "foreground": "#98c379" }
     },
@@ -720,7 +736,10 @@
         "meta.embedded.block.scss",
         "keyword.declaration.dart",
         "constant.language.go.sum",
-        "support.type.property-name.media.css"
+        "support.type.property-name.media.css",
+        "variable.other.readwrite.alias.ts",
+        "variable.other.property.ts",
+        "entity.name.type.class.ts"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
@@ -770,7 +789,8 @@
         "meta.property-name.css",
         "constant.language.go.mod",
         "entity.other.attribute-name.namespace.xml",
-        "entity.name.tag.namespace.xml"
+        "entity.name.tag.namespace.xml",
+        "support.variable.property.ts"
       ],
       "settings": {
         "foreground": "#E76F51"
@@ -786,7 +806,8 @@
         "support.class.ruby",
         "storage.type.annotation",
         "entity.other.attribute-name.localname.xml",
-        "entity.other.attribute-name.xml"
+        "entity.other.attribute-name.xml",
+        "keyword.operator.new.ts"
       ],
       "settings": {
         "foreground": "#E76F51",
@@ -833,7 +854,10 @@
         "keyword.interface.go",
         "storage.type.rune.go",
         "meta.objectliteral.tsx",
-        "variable.other"
+        "variable.other",
+        "entity.name.type.ts",
+        "support.type.primitive.ts",
+        "support.type.builtin.ts"
       ],
       "settings": {
         "foreground": "#6DA4AA"
@@ -886,7 +910,6 @@
         "constant.numeric.float.lua",
         "constant.other.symbol.ruby",
         "constant.numeric.dart",
-        "meta.object-literal.key.tsx",
         "constant.other.color.rgb-value.hex.css",
         "support.constant.color.w3c-standard-color-name.css"
       ],
@@ -906,7 +929,8 @@
         "constant.language.boolean.false.tsx",
         "constant.language.json",
         "variable.scss",
-        "constant.character.entity.xml"
+        "constant.character.entity.xml",
+        "meta.object-literal.key.tsx"
       ],
       "settings": {
         "foreground": "#858AE3"
@@ -918,6 +942,21 @@
       "settings": {
         "foreground": "#E5E5E570",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable.other.constant.tsx",
+        "variable.other.object.tsx",
+        "variable.parameter.tsx",
+        "variable.other.constant.ts",
+        "variable.other.object.ts",
+        "variable.other.constant.object.ts",
+        "variable.other.readwrite.ts"
+      ],
+      "settings": {
+        "foreground": "#E29578"
       }
     }
   ]
