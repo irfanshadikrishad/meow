@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root element -->
+<Experiment xmlns:ns1="http://example.com/ns1" xmlns="http://defaultnamespace.com">
+    <!-- Basic element with attributes -->
+    <Settings type="simulation" enabled="true">
+        <Version major="1" minor="0" />
+    </Settings>
+    
+    <!-- Nested elements -->
+    <Data>
+        <Category name="Physics">
+            <Parameter name="Gravity" value="9.8" unit="m/s²" />
+            <Parameter name="Mass" value="1.2" unit="kg" />
+        </Category>
+        <Category name="Chemistry">
+            <Parameter name="pH" value="7" unit="-" />
+        </Category>
+    </Data>
+    
+    <!-- Special characters and escaping -->
+    <SpecialCharacters>
+        <Escaped>&lt;tag&gt; &amp; &apos;Quotes&apos; &quot;Double&quot;</Escaped>
+        <RawText><![CDATA[<tag>This won't be parsed</tag>]]></RawText>
+    </SpecialCharacters>
+    
+    <!-- Mixed content -->
+    <Notes>
+        Here are some notes: <Highlight>Important</Highlight> details.
+    </Notes>
+    
+    <!-- Using namespaces -->
+    <ns1:AdvancedSettings>
+        <ns1:Option name="debug" value="true" />
+    </ns1:AdvancedSettings>
+    
+    <!-- Self-closing element -->
+    <Log timestamp="2024-11-18T10:00:00Z" />
+</Experiment>
