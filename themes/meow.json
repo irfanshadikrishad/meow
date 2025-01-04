@@ -142,7 +142,6 @@
         "comment.block.css",
         "comment.block.html",
         "comment.line.double-dash.sql",
-        "meta.tag.xml",
         "punctuation.separator.namespace.xml",
         "meta.tag.preprocessor.xml",
         "punctuation.accessor.ts",
@@ -278,7 +277,10 @@
         "keyword.operator.logical.ts",
         "punctuation.separator.parameter.ts",
         "keyword.operator.relational.ts",
-        "keyword.operator.arithmetic.ts"
+        "keyword.operator.arithmetic.ts",
+        "punctuation.definition.section.case-statement.ts",
+        "punctuation.terminator.statement.ts",
+        "keyword.operator.assignment.go"
       ],
       "settings": { "foreground": "#353535" }
     },
@@ -501,7 +503,14 @@
         "entity.name.tag.localname.xml",
         "punctuation.definition.tag.xml",
         "entity.name.tag.xml",
-        "storage.type.class.ts"
+        "storage.type.class.ts",
+        "storage.type.enum.ts",
+        "keyword.operator.expression.keyof.ts",
+        "keyword.operator.expression.typeof.ts",
+        "punctuation.section.block.begin.bracket.curly.class.cpp",
+        "punctuation.section.block.end.bracket.curly.class.cpp",
+        "meta.head.function.definition.cpp",
+        "punctuation.section.block.end.bracket.curly.function.definition.cpp"
       ],
       "settings": {
         "foreground": "#ff6188"
@@ -548,7 +557,6 @@
         "keyword.operator.arithmetic.js",
         "keyword.operator.arithmetic.r",
         "keyword.operator.arithmetic.shell",
-        "keyword.operator.assignment.go",
         "keyword.operator.assignment.java",
         "keyword.operator.assignment.php",
         "keyword.operator.assignment.rust",
@@ -590,7 +598,6 @@
         "keyword.operator.expression.infer.tsx",
         "string.quoted.double.tsx",
         "string.template.tsx",
-        "string.quoted.double.ts",
         "string.template.ts"
       ],
       "settings": { "foreground": "#ECB365" }
@@ -617,7 +624,9 @@
         "support.constant.property-value.css",
         "constant.numeric.decimal.ts",
         "constant.language.boolean.true.ts",
-        "constant.language.boolean.false.ts"
+        "constant.language.boolean.false.ts",
+        "string.quoted.double.ts",
+        "string.template.ts"
       ],
       "settings": { "foreground": "#98c379" }
     },
@@ -739,7 +748,9 @@
         "support.type.property-name.media.css",
         "variable.other.readwrite.alias.ts",
         "variable.other.property.ts",
-        "entity.name.type.class.ts"
+        "entity.name.type.class.ts",
+        "variable.other.readwrite.alias.js",
+        "entity.name.type.enum.ts"
       ],
       "settings": { "foreground": "#3dc2ec" }
     },
